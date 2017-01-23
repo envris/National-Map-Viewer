@@ -6,6 +6,11 @@
       "isOpen": true,
       "items": [
         {
+          "name": "Atmosphere Map",
+          "type": "group",
+          "items": []
+        },
+        {
           "name": "Biodiversity Map",
           "type": "group",
           "items": [
@@ -42,9 +47,175 @@
           ]
         },
         {
+          "name": "Built Environment Map",
+          "type": "group",
+          "items": []
+        },
+        {
+          "name": "Coasts Map",
+          "type": "group",
+          "items": []
+        },
+        {
+          "name": "Inland Waters Map",
+          "type": "group",
+          "items": [
+            {
+              "id": "ed5efa40-1610-45d5-90bf-c5395e8d8b3c",
+              "name": "Australian drainage divisions map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-aus-drainage-div",
+              "resourceId": "ed5efa40-1610-45d5-90bf-c5395e8d8b3c",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "3ec14210-847e-477c-adda-da23efa8860b",
+              "name": "Distribution of Arrowhead (Sagittaria platyphylla) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-arrowhead",
+              "resourceId": "3ec14210-847e-477c-adda-da23efa8860b",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "name": "Monthly streamflow for the Lake Eyre Basin, January 2016 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-lake-eyre-stream",
+              "resourceId": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
+              "name": "Average annual rainfall map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-avg-ann-rainfall",
+              "resourceId": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "27af3628-0a74-4402-8afa-953a31b87908",
+              "name": "Distribution of Water Hyacinth map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-water-hyacinth",
+              "resourceId": "27af3628-0a74-4402-8afa-953a31b87908",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "name": "Rainfall deciles for the Lake Eyre Basin, January 2016 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-lake-eyre-rainfall",
+              "resourceId": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
+              "name": "Principal hydrogeology of Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-aus-hydrogeology",
+              "resourceId": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
+              "name": "Distribution of Eastern Gambusia (Gambusia holbrooki) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-eastern-gambusia",
+              "resourceId": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "043fa644-36bd-46ef-a874-52c24c27c8ef",
+              "name": "Annual rainfall deciles 2012 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2012",
+              "resourceId": "043fa644-36bd-46ef-a874-52c24c27c8ef",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
+              "name": "Annual rainfall deciles 2013 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2013",
+              "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "name": "Distribution of European Carp map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-european-carp",
+              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "790b72ef-a70a-46d0-be2f-e8e42b115123",
+              "name": "Continuing widespread rainfall deficiencies found across Australia at the end of 2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deficiencies",
+              "resourceId": "790b72ef-a70a-46d0-be2f-e8e42b115123",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "7babb413-c021-441b-8116-46330960297a",
+              "name": "Annual rainfall deciles 2014 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2014",
+              "resourceId": "7babb413-c021-441b-8116-46330960297a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "07f67252-dc4a-4fdd-9596-6cf50a677828",
+              "name": "Annual rainfall deciles 2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2015",
+              "resourceId": "07f67252-dc4a-4fdd-9596-6cf50a677828",
+              "cacheDuration": "0d"
+            }
+          ]
+        },
+        {
           "name": "Land Map",
           "type": "group",
           "items": [
+            {
+              "id": "f2eb5021-c048-4f0c-8bdc-7115acfef36b",
+              "name": "2010 Dust Storm Index Map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-land-dust-storm-activity-2010",
+              "resourceId": "f2eb5021-c048-4f0c-8bdc-7115acfef36b",
+              "cacheDuration": "0d"
+            },
             {
               "id": "451dbff6-19c1-4cf4-a16d-c8b36c94ce28",
               "name": "2005 Dust Storm Index Map service",
@@ -73,16 +244,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-land-dust-storm-activity-2011",
               "resourceId": "fd57c1b1-111b-42d3-951e-55b1fb00299b",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "f2eb5021-c048-4f0c-8bdc-7115acfef36b",
-              "name": "2010 Dust Storm Index Map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2010",
-              "resourceId": "f2eb5021-c048-4f0c-8bdc-7115acfef36b",
               "cacheDuration": "0d"
             },
             {
