@@ -61,6 +61,26 @@
           "type": "group",
           "items": [
             {
+              "id": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "name": "Monthly streamflow for the Lake Eyre Basin, January 2016 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-lake-eyre-stream",
+              "resourceId": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "name": "Rainfall deciles for the Lake Eyre Basin, January 2016 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-lake-eyre-rainfall",
+              "resourceId": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "cacheDuration": "0d"
+            },
+            {
               "id": "ed5efa40-1610-45d5-90bf-c5395e8d8b3c",
               "name": "Australian drainage divisions map service",
               "debugFormat": "Esri REST",
@@ -81,16 +101,6 @@
               "cacheDuration": "0d"
             },
             {
-              "id": "5c9331be-0848-47e2-97a8-0872449889b0",
-              "name": "Monthly streamflow for the Lake Eyre Basin, January 2016 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-inw-lake-eyre-stream",
-              "resourceId": "5c9331be-0848-47e2-97a8-0872449889b0",
-              "cacheDuration": "0d"
-            },
-            {
               "id": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
               "name": "Average annual rainfall map service",
               "debugFormat": "Esri REST",
@@ -108,16 +118,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-inw-water-hyacinth",
               "resourceId": "27af3628-0a74-4402-8afa-953a31b87908",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "7c46a60b-a064-471d-a629-ecd79784c6c9",
-              "name": "Rainfall deciles for the Lake Eyre Basin, January 2016 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-inw-lake-eyre-rainfall",
-              "resourceId": "7c46a60b-a064-471d-a629-ecd79784c6c9",
               "cacheDuration": "0d"
             },
             {
