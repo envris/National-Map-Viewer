@@ -530,7 +530,118 @@
         {
           "name": "Built Environment Map",
           "type": "group",
-          "items": []
+          "items": [
+            {
+              "id": "c65964c0-d48e-45fc-9a75-980b497f2500",
+              "name": "Population-weighted density change, selected cities, 2011–14 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-population-weighted-density",
+              "resourceId": "c65964c0-d48e-45fc-9a75-980b497f2500",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "7f148d30-68ba-4515-a40f-57b0cf06c87d",
+              "name": "Mean house to block size ratios by SA1 - 2014 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-mean-house-block-size-2014",
+              "resourceId": "7f148d30-68ba-4515-a40f-57b0cf06c87d",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "ef208a23-7300-4170-8b69-b6d0eeb5a778",
+              "name": "Mean house to block size ratios by SA1 - 2000 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-mean-house-block-size-2000",
+              "resourceId": "ef208a23-7300-4170-8b69-b6d0eeb5a778",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "dd702bb9-5f42-4ff8-a480-80274b8e3126",
+              "name": "Small regions with significant urban parcel growth, by capital city map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-metro-aria-urban-parcel",
+              "resourceId": "dd702bb9-5f42-4ff8-a480-80274b8e3126",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "2e68739f-c07b-4d0f-9bbc-c85a48b3b1ce",
+              "name": "Small regions with significant urban parcel growth, by capital city map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-metro-aria-urban-parcel",
+              "resourceId": "2e68739f-c07b-4d0f-9bbc-c85a48b3b1ce",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "3cac30fb-228e-404e-b402-78a5f935c925",
+              "name": "Mean house to block size ratios by SA1 - 2010 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-mean-house-block-size-2010",
+              "resourceId": "3cac30fb-228e-404e-b402-78a5f935c925",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "1cb4c75b-ddc3-476e-a835-acb261a6381b",
+              "name": "Accessibility to public transport, capital cities, 2011 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-metro-aria-transport",
+              "resourceId": "1cb4c75b-ddc3-476e-a835-acb261a6381b",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "c6b05324-9f5f-4f2d-a5ed-d613208a568a",
+              "name": "Mean house to block size ratios by SA1 - 1990 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-mean-house-block-size-1990",
+              "resourceId": "c6b05324-9f5f-4f2d-a5ed-d613208a568a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "71e00ab6-845b-4b1f-a132-2c5ed5f492da",
+              "name": "Accessibility to health services, by capital city, 2011 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-metro-aria-health",
+              "resourceId": "71e00ab6-845b-4b1f-a132-2c5ed5f492da",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "483b1011-d0ef-48c2-aa4c-62e7bf672067",
+              "name": "Accessibility to education services, by capital city, 2011 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-metro-aria-education",
+              "resourceId": "483b1011-d0ef-48c2-aa4c-62e7bf672067",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "635bd069-b100-439e-b2ea-295727e8c9f2",
+              "name": "Accessibility to education services, by capital city, 2011 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-blt-metro-aria-education",
+              "resourceId": "635bd069-b100-439e-b2ea-295727e8c9f2",
+              "cacheDuration": "0d"
+            }
+          ]
         },
         {
           "name": "Coasts Map",
