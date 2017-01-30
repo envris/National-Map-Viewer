@@ -10,16 +10,6 @@
           "type": "group",
           "items": [
             {
-              "id": "3b81b7af-c7b7-42ca-9f93-016742d70580",
-              "name": "Rainfall deciles in Australia, 2010-11 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-atm-rain-dec-jan10-to-dec11",
-              "resourceId": "3b81b7af-c7b7-42ca-9f93-016742d70580",
-              "cacheDuration": "0d"
-            },
-            {
               "id": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
               "name": "Trend in Australian mean temperatures, 1910-2015 map service",
               "debugFormat": "Esri REST",
@@ -27,6 +17,16 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-atm-annual-mean-temp-1910-2015",
               "resourceId": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "3b81b7af-c7b7-42ca-9f93-016742d70580",
+              "name": "Rainfall deciles in Australia, 2010-11 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-atm-rain-dec-jan10-to-dec11",
+              "resourceId": "3b81b7af-c7b7-42ca-9f93-016742d70580",
               "cacheDuration": "0d"
             },
             {
@@ -76,6 +76,46 @@
           "type": "group",
           "items": [
             {
+              "id": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
+              "name": "The distribution of river condition across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-bio-river-condition",
+              "resourceId": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "name": "The distribution of currently listed freshwater fish across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
+              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "273b24ba-51fa-4462-bae9-1f33af48f988",
+              "name": "The distribution of species identifed as potentially vulnerable across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-bio-vulnerable-freshwater-fish",
+              "resourceId": "273b24ba-51fa-4462-bae9-1f33af48f988",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "name": "The distribution of freshwater fish research effort across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-bio-research-effort",
+              "resourceId": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "cacheDuration": "0d"
+            },
+            {
               "id": "4a9b51e0-1602-47d8-bafb-c61de307637b",
               "name": "Number of EPBC critically endangered invertebrate species in each IBRA region map service",
               "debugFormat": "Esri REST",
@@ -103,16 +143,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-bio-species-records-pre2012",
               "resourceId": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
-              "name": "The distribution of freshwater fish research effort across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-bio-research-effort",
-              "resourceId": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
               "cacheDuration": "0d"
             },
             {
@@ -256,16 +286,6 @@
               "cacheDuration": "0d"
             },
             {
-              "id": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
-              "name": "The distribution of river condition across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-bio-river-condition",
-              "resourceId": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
-              "cacheDuration": "0d"
-            },
-            {
               "id": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
               "name": "The distribution of phylogenetic diversity for Hylidae frogs across Australia map service",
               "debugFormat": "Esri REST",
@@ -306,16 +326,6 @@
               "cacheDuration": "0d"
             },
             {
-              "id": "273b24ba-51fa-4462-bae9-1f33af48f988",
-              "name": "The distribution of species identifed as potentially vulnerable across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-bio-vulnerable-freshwater-fish",
-              "resourceId": "273b24ba-51fa-4462-bae9-1f33af48f988",
-              "cacheDuration": "0d"
-            },
-            {
               "id": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
               "name": "Number of EPBC invertebrate species in each IBRA region map service",
               "debugFormat": "Esri REST",
@@ -343,16 +353,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-bio-phylo-endemism-birds",
               "resourceId": "89bc8411-d015-4236-b36a-8d34b992cb84",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
-              "name": "The distribution of currently listed freshwater fish across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
-              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
               "cacheDuration": "0d"
             },
             {
@@ -648,6 +648,16 @@
           "type": "group",
           "items": [
             {
+              "id": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
+              "name": "Oil and gas production wells within 50 kilometres of the coast map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-coa-coastal-oil-gas",
+              "resourceId": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
+              "cacheDuration": "0d"
+            },
+            {
               "id": "0bcc0b12-ebe8-479a-8e40-dd9fb52f09d4",
               "name": "Sea level trends from satellite altimeters and tide gauges January 1993 to December 2010 map service",
               "debugFormat": "Esri REST",
@@ -696,15 +706,91 @@
               "datasetId": "2016-soe-coa-estuaries-water-colour-change",
               "resourceId": "ee5ab874-5ec2-4ee6-b7f4-2022c2110403",
               "cacheDuration": "0d"
-            },
+            }
+          ]
+        },
+        {
+          "name": "Heritage Map",
+          "type": "group",
+          "items": [
             {
-              "id": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
-              "name": "Oil and gas production wells within 50 kilometres of the coast map service",
+              "id": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
+              "name": "Additions to the Indigenous Protected Areas 2011–16 map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-coa-coastal-oil-gas",
-              "resourceId": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
+              "datasetId": "2016-soe-her-ipa-additions-2011-16",
+              "resourceId": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "31f0289e-cee5-41d3-8d8e-2fda8b750fb6",
+              "name": "Interim Biogeographic Regionalisation for Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-aus-ibra-regions",
+              "resourceId": "31f0289e-cee5-41d3-8d8e-2fda8b750fb6",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
+              "name": "Australian World Heritage Sites map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-aus-national-heritage",
+              "resourceId": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "cdba355b-0a68-4c4f-95e8-502b9bf9c550",
+              "name": "Australian World Heritage Sites map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-aus-world-heritage",
+              "resourceId": "cdba355b-0a68-4c4f-95e8-502b9bf9c550",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "bd2653bb-2428-47aa-b4b1-b0bf509e3ecf",
+              "name": "Additions to the National Reserve System 2011–16 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-nrs-additions-2011-16",
+              "resourceId": "bd2653bb-2428-47aa-b4b1-b0bf509e3ecf",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "4d328c90-f13e-4b48-b615-c59c1e7c9996",
+              "name": "Marine Protected Areas 2014 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-mpa-2014",
+              "resourceId": "4d328c90-f13e-4b48-b615-c59c1e7c9996",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "0262950b-c1f7-45ae-bef6-75f4cb428e61",
+              "name": "Marine Protected Areas 2008 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-mpa-2008",
+              "resourceId": "0262950b-c1f7-45ae-bef6-75f4cb428e61",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "a8ecc243-5a85-4724-8640-638babb64309",
+              "name": "Great Eastern Ranges Connectivity Corridor map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-ger-connectivity-corridor",
+              "resourceId": "a8ecc243-5a85-4724-8640-638babb64309",
               "cacheDuration": "0d"
             }
           ]
@@ -713,6 +799,16 @@
           "name": "Inland Waters Map",
           "type": "group",
           "items": [
+            {
+              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "name": "Distribution of European Carp map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-inw-european-carp",
+              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "cacheDuration": "0d"
+            },
             {
               "id": "5c9331be-0848-47e2-97a8-0872449889b0",
               "name": "Monthly streamflow for the Lake Eyre Basin, January 2016 map service",
@@ -811,16 +907,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-inw-rainfall-deciles-2013",
               "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
-              "name": "Distribution of European Carp map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-inw-european-carp",
-              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
               "cacheDuration": "0d"
             },
             {
