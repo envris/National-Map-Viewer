@@ -916,6 +916,66 @@
           "type": "group",
           "items": [
             {
+              "id": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "name": "Vegetation change under climate scenarios - Projected (2050 MIROC 5 RCP 8.5) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-miroc",
+              "resourceId": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
+              "name": "Vegetation change under climate scenarios - Projected (2050 CAN ESM 2 RCP 8.5) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-can-esm",
+              "resourceId": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "1580bebf-63a1-4c22-b9b8-53e817c41956",
+              "name": "Vegetation change under climate scenarios - Predicted (1990 baseline) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-predicted",
+              "resourceId": "1580bebf-63a1-4c22-b9b8-53e817c41956",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
+              "name": "Novel vegetation communities under climate scenarios - 2050 MIROC 5 RCP 8.5 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-novel-veg-comm-2050-miroc-5",
+              "resourceId": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
+              "name": "Novel vegetation communities under climate scenarios - 2050 CAN ESM 2 RCP 8.5 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-novel-veg-comm-2050-can-esm-2",
+              "resourceId": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
+              "name": "Northern Australia Indigenous Land Interests (inc ILUAs) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-northern-australia-ili",
+              "resourceId": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
+              "cacheDuration": "0d"
+            },
+            {
               "id": "ec95ae94-1241-40dc-8924-4c53825d9223",
               "name": "Land Percentage of remaining native vegetation per Agro Climatic region map service",
               "debugFormat": "Esri REST",
@@ -923,6 +983,16 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-lan-agro-climatic-remaining-veg",
               "resourceId": "ec95ae94-1241-40dc-8924-4c53825d9223",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "name": "Vegetation change under climate scenarios - Observed (pre 1750) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-observed",
+              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
               "cacheDuration": "0d"
             },
             {
@@ -953,16 +1023,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-lan-indigenous-land-sea-management",
               "resourceId": "17633676-5ab7-4156-909c-ced6594422d8",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "1580bebf-63a1-4c22-b9b8-53e817c41956",
-              "name": "Vegetation change under climate scenarios - Predicted (1990 baseline) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-predicted",
-              "resourceId": "1580bebf-63a1-4c22-b9b8-53e817c41956",
               "cacheDuration": "0d"
             },
             {
@@ -1006,16 +1066,6 @@
               "cacheDuration": "0d"
             },
             {
-              "id": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
-              "name": "Novel vegetation communities under climate scenarios - 2050 MIROC 5 RCP 8.5 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-novel-veg-comm-2050-miroc-5",
-              "resourceId": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
-              "cacheDuration": "0d"
-            },
-            {
               "id": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
               "name": "Indigenous land and sea interests Indigenous Protected Areas map service",
               "debugFormat": "Esri REST",
@@ -1033,46 +1083,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-lan-chytrid-fungus",
               "resourceId": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
-              "name": "Vegetation change under climate scenarios - Projected (2050 MIROC 5 RCP 8.5) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-miroc",
-              "resourceId": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
-              "name": "Novel vegetation communities under climate scenarios - 2050 CAN ESM 2 RCP 8.5 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-novel-veg-comm-2050-can-esm-2",
-              "resourceId": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
-              "name": "Vegetation change under climate scenarios - Observed (pre 1750) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-observed",
-              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
-              "name": "Vegetation change under climate scenarios - Projected (2050 CAN ESM 2 RCP 8.5) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-can-esm",
-              "resourceId": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
               "cacheDuration": "0d"
             },
             {
@@ -1113,16 +1123,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-lan-indigenous-ipa-native-title",
               "resourceId": "238f4a98-209c-4479-aa67-23108c982399",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
-              "name": "Northern Australia Indigenous Land Interests (inc ILUAs) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-lan-northern-australia-ili",
-              "resourceId": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
               "cacheDuration": "0d"
             },
             {
