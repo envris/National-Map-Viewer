@@ -494,36 +494,6 @@
               "datasetId": "2016-soe-bio-epbc-plant-ce",
               "resourceId": "4697527b-33a1-42e7-9275-b46633f60534",
               "cacheDuration": "0d"
-            },
-            {
-              "id": "b28c724c-e302-436e-b984-ae8c3777dfe2",
-              "name": "2016 SoE Biodiversity 2011 NRS Protection level of IBRA regions map service ",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-biodiversity-2011-nrs-protection-level-of-ibra-regions-map",
-              "resourceId": "b28c724c-e302-436e-b984-ae8c3777dfe2",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "3cb3ecdc-fde1-4121-88f0-184a513e68a8",
-              "name": "2016 SoE Biodiversity Total number of EPBC listed fish species in each ibra region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-biodiversity-total-number-of-epbc-listed-fish-species-in-each-ibra-region",
-              "resourceId": "3cb3ecdc-fde1-4121-88f0-184a513e68a8",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "0c683ed4-0bba-4402-ad0c-60873407d734",
-              "name": "2016 SoE Biodiversity threatened ecological community hotspot map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-biodiversity-threatened-ecological-community-hotspot",
-              "resourceId": "0c683ed4-0bba-4402-ad0c-60873407d734",
-              "cacheDuration": "0d"
             }
           ]
         },
@@ -714,6 +684,16 @@
           "type": "group",
           "items": [
             {
+              "id": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
+              "name": "National Heritage Places map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-her-aus-national-heritage",
+              "resourceId": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
+              "cacheDuration": "0d"
+            },
+            {
               "id": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
               "name": "Additions to the Indigenous Protected Areas 2011–16 map service",
               "debugFormat": "Esri REST",
@@ -731,16 +711,6 @@
               "url": "https://data.gov.au",
               "datasetId": "2016-soe-her-aus-ibra-regions",
               "resourceId": "31f0289e-cee5-41d3-8d8e-2fda8b750fb6",
-              "cacheDuration": "0d"
-            },
-            {
-              "id": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
-              "name": "Australian World Heritage Sites map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "https://data.gov.au",
-              "datasetId": "2016-soe-her-aus-national-heritage",
-              "resourceId": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
               "cacheDuration": "0d"
             },
             {
@@ -946,113 +916,699 @@
           "type": "group",
           "items": [
             {
-              "id": "f2eb5021-c048-4f0c-8bdc-7115acfef36b",
-              "name": "2010 Dust Storm Index Map service",
+              "id": "ec95ae94-1241-40dc-8924-4c53825d9223",
+              "name": "Land Percentage of remaining native vegetation per Agro Climatic region map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2010",
-              "resourceId": "f2eb5021-c048-4f0c-8bdc-7115acfef36b",
+              "datasetId": "2016-soe-lan-agro-climatic-remaining-veg",
+              "resourceId": "ec95ae94-1241-40dc-8924-4c53825d9223",
               "cacheDuration": "0d"
             },
             {
-              "id": "451dbff6-19c1-4cf4-a16d-c8b36c94ce28",
-              "name": "2005 Dust Storm Index Map service",
+              "id": "59783465-8f4f-445c-9d17-a816bd27b143",
+              "name": "Estimated net soil loss due to wind erosion for the 22nd - 23rd sep 2009 map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2005",
-              "resourceId": "451dbff6-19c1-4cf4-a16d-c8b36c94ce28",
+              "datasetId": "2016-soe-lan-net-soil-loss2009",
+              "resourceId": "59783465-8f4f-445c-9d17-a816bd27b143",
               "cacheDuration": "0d"
             },
             {
-              "id": "b0f1e943-2cbd-4572-94d8-49086156b973",
-              "name": "2001 Dust Storm Index Map service",
+              "id": "353d9fa5-5aaa-4b55-ad22-ce717099c95e",
+              "name": "Proportion of bare soil, photosynthetically active vegetation and non-photosynthetically active vegetation - 2016 map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2001",
-              "resourceId": "b0f1e943-2cbd-4572-94d8-49086156b973",
+              "datasetId": "2016-soe-lan-fractional-cover-2016",
+              "resourceId": "353d9fa5-5aaa-4b55-ad22-ce717099c95e",
               "cacheDuration": "0d"
             },
             {
-              "id": "fd57c1b1-111b-42d3-951e-55b1fb00299b",
-              "name": "2011 Dust Storm Index Map service",
+              "id": "17633676-5ab7-4156-909c-ced6594422d8",
+              "name": "Investment in Indigenous Land and Sea management map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2011",
-              "resourceId": "fd57c1b1-111b-42d3-951e-55b1fb00299b",
+              "datasetId": "2016-soe-lan-indigenous-land-sea-management",
+              "resourceId": "17633676-5ab7-4156-909c-ced6594422d8",
               "cacheDuration": "0d"
             },
             {
-              "id": "6d423213-bad1-41b1-8c49-28ad97f3f5e0",
-              "name": "2009 Dust Storm Index Map service",
+              "id": "1580bebf-63a1-4c22-b9b8-53e817c41956",
+              "name": "Vegetation change under climate scenarios - Predicted (1990 baseline) map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2009",
-              "resourceId": "6d423213-bad1-41b1-8c49-28ad97f3f5e0",
+              "datasetId": "2016-soe-lan-climate-scenarios-predicted",
+              "resourceId": "1580bebf-63a1-4c22-b9b8-53e817c41956",
               "cacheDuration": "0d"
             },
             {
-              "id": "dd91cc5a-f814-490a-9f06-692d1be7a536",
-              "name": "2008 Dust Storm Index Map service",
+              "id": "e33c991d-1ce9-4b25-bedf-6b9a87a63850",
+              "name": " Average annual rainfall in the Great Barrier Reef catchment map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2008",
-              "resourceId": "dd91cc5a-f814-490a-9f06-692d1be7a536",
+              "datasetId": "2016-soe-lan-gbr-avg-ann-rainfall",
+              "resourceId": "e33c991d-1ce9-4b25-bedf-6b9a87a63850",
               "cacheDuration": "0d"
             },
             {
-              "id": "a282a682-8e5c-4bd2-9d4f-7ab7248c21d5",
-              "name": "2007 Dust Storm Index Map service",
+              "id": "3e73d528-970f-4161-9f67-11f34d298736",
+              "name": "Dust storm stations across Australia map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2007",
-              "resourceId": "a282a682-8e5c-4bd2-9d4f-7ab7248c21d5",
+              "datasetId": "2016-soe-lan-dust-storm-activity-stations",
+              "resourceId": "3e73d528-970f-4161-9f67-11f34d298736",
               "cacheDuration": "0d"
             },
             {
-              "id": "4df7a084-7cf4-4535-b5c8-6eb7267b3181",
-              "name": "2006 Dust Storm Index Map service",
+              "id": "86ee4379-1b02-4d85-a9d4-674be459e7db",
+              "name": "Grade of soil erosion for the physiographic of Australia map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2006",
-              "resourceId": "4df7a084-7cf4-4535-b5c8-6eb7267b3181",
+              "datasetId": "2016-soe-lan-soil-erosion",
+              "resourceId": "86ee4379-1b02-4d85-a9d4-674be459e7db",
               "cacheDuration": "0d"
             },
             {
-              "id": "3387fe41-6238-416a-a699-35a657b1957c",
-              "name": "2003 Dust Storm Index Map service",
+              "id": "859254cb-58d8-4b96-9613-b330f7ba9ad6",
+              "name": "Australian land use at the national scale, 2010-2011 map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2003",
-              "resourceId": "3387fe41-6238-416a-a699-35a657b1957c",
+              "datasetId": "2016-soe-lan-aus-land-use",
+              "resourceId": "859254cb-58d8-4b96-9613-b330f7ba9ad6",
               "cacheDuration": "0d"
             },
             {
-              "id": "74b9f753-1eab-48e1-a298-dd8317a1300e",
-              "name": "2004 Dust Storm Index Map service",
+              "id": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
+              "name": "Novel vegetation communities under climate scenarios - 2050 MIROC 5 RCP 8.5 map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2004",
-              "resourceId": "74b9f753-1eab-48e1-a298-dd8317a1300e",
+              "datasetId": "2016-soe-lan-novel-veg-comm-2050-miroc-5",
+              "resourceId": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
               "cacheDuration": "0d"
             },
             {
-              "id": "784abc18-43ad-4817-ad76-32b4eb57665f",
-              "name": "2002 Dust Storm Index Map service",
+              "id": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
+              "name": "Indigenous land and sea interests Indigenous Protected Areas map service",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "https://data.gov.au",
-              "datasetId": "2016-soe-land-dust-storm-activity-2002",
-              "resourceId": "784abc18-43ad-4817-ad76-32b4eb57665f",
+              "datasetId": "2016-soe-lan-indigenous-ipa-ili",
+              "resourceId": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
+              "name": "Occurences of Batrachochytrium dendrobatidis (chytrid fungus) across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-chytrid-fungus",
+              "resourceId": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "name": "Vegetation change under climate scenarios - Projected (2050 MIROC 5 RCP 8.5) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-miroc",
+              "resourceId": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
+              "name": "Novel vegetation communities under climate scenarios - 2050 CAN ESM 2 RCP 8.5 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-novel-veg-comm-2050-can-esm-2",
+              "resourceId": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "name": "Vegetation change under climate scenarios - Observed (pre 1750) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-observed",
+              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
+              "name": "Vegetation change under climate scenarios - Projected (2050 CAN ESM 2 RCP 8.5) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-can-esm",
+              "resourceId": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "254353c2-5941-4576-9e5f-794157e4ae50",
+              "name": "Rating of condiiton for soil carbon map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-carbon",
+              "resourceId": "254353c2-5941-4576-9e5f-794157e4ae50",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "12c9ceff-6574-4036-931e-1d41b2aae643",
+              "name": "VAST classification of Australian vegetation map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-vast-v2",
+              "resourceId": "12c9ceff-6574-4036-931e-1d41b2aae643",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
+              "name": "Australian Soil Classification orders map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-classification",
+              "resourceId": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "238f4a98-209c-4479-aa67-23108c982399",
+              "name": "Native Title boundaries and Indigenous Protected Areas map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-indigenous-ipa-native-title",
+              "resourceId": "238f4a98-209c-4479-aa67-23108c982399",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
+              "name": "Northern Australia Indigenous Land Interests (inc ILUAs) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-northern-australia-ili",
+              "resourceId": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "78bbd41b-b73b-4568-b11d-e5aecc3bd6aa",
+              "name": "Rating of condition for soil acidity map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-acidification",
+              "resourceId": "78bbd41b-b73b-4568-b11d-e5aecc3bd6aa",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "375427f2-b5f3-4854-8f91-01a88afe6ff8",
+              "name": "Extent of all forms of vegetation across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-integrated-vegetation",
+              "resourceId": "375427f2-b5f3-4854-8f91-01a88afe6ff8",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "47241230-3856-4755-b476-1e65c5993d4a",
+              "name": "National Fire return frequency for Australia (1988 - 2015) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-fire-return-frequency",
+              "resourceId": "47241230-3856-4755-b476-1e65c5993d4a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "0f672cbc-e0ca-4eed-815d-85d75eec39e7",
+              "name": "Density distribution (2008) of feral camels map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-camel-density-distribution",
+              "resourceId": "0f672cbc-e0ca-4eed-815d-85d75eec39e7",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "a5724987-4011-4d22-8a4b-b8bcd8594b9d",
+              "name": "Proportion of bare soil, photosynthetically active vegetation and non-photosynthetically active vegetation - 2006 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-lan-fractional-cover-2006",
+              "resourceId": "a5724987-4011-4d22-8a4b-b8bcd8594b9d",
+              "cacheDuration": "0d"
+            }
+          ]
+        },
+        {
+          "name": "Marine Map",
+          "type": "group",
+          "items": [
+            {
+              "id": "cf818915-3ebc-43b4-8997-1f8be154e96a",
+              "name": "Trend in chlorophyl - Bonney Coast 2000-15 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-trend-in-chlorophyl-bonney-coast",
+              "resourceId": "cf818915-3ebc-43b4-8997-1f8be154e96a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "0ef27f31-6b41-4a2a-8c32-2051473e7f1a",
+              "name": "Reef Biodiversity - B Community temperature index map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-reef-biodiversity-b-cti",
+              "resourceId": "0ef27f31-6b41-4a2a-8c32-2051473e7f1a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
+              "name": "Exploration permits for petroleum leases 2011-15 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-exploration-permits-petroleum-leases",
+              "resourceId": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "57365124-0f63-4b46-880f-05c14de26679",
+              "name": "IMCRA bioregions trawl footprint percent of total area map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-imcra-bioregions-trawl-footprint",
+              "resourceId": "57365124-0f63-4b46-880f-05c14de26679",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "147a4ec7-db00-4bd0-ab9e-0ca609b6e808",
+              "name": "Jurisdictions map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-jurisdictions",
+              "resourceId": "147a4ec7-db00-4bd0-ab9e-0ca609b6e808",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "1da581ff-a943-4854-b994-7b7b9899da9c",
+              "name": "Seismic surveys - B Total 2D survey metres map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-seismic-surveys-b-2d-survey-meters",
+              "resourceId": "1da581ff-a943-4854-b994-7b7b9899da9c",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "35ae3977-8479-41d2-b382-663301a721a9",
+              "name": "March sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-march-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "35ae3977-8479-41d2-b382-663301a721a9",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "fedc396f-3e5e-49e5-84fa-7d450f3b35de",
+              "name": "Connectivity of habitats - B Marine larvae map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-connectivity-of-habitats-b-marine-larvae",
+              "resourceId": "fedc396f-3e5e-49e5-84fa-7d450f3b35de",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "1b625728-3b3d-40f8-b8e0-4ec1f2610e50",
+              "name": "November sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-november-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "1b625728-3b3d-40f8-b8e0-4ec1f2610e50",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "e215ca8f-af8d-4275-804c-736a2212bd4c",
+              "name": "Key ecological features map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-key-ecological-features",
+              "resourceId": "e215ca8f-af8d-4275-804c-736a2212bd4c",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "692e9af5-9191-4391-beb3-2c98058e049b",
+              "name": "Reef Biodiversity - A Biomass of fishes greater than 20cm map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-reef-biodiversity-a-large-fish-biomass",
+              "resourceId": "692e9af5-9191-4391-beb3-2c98058e049b",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "7dffa322-0676-4cd8-baa8-a407440dd69a",
+              "name": "Australia's Exclusive Economic Zone map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-australian-eez",
+              "resourceId": "7dffa322-0676-4cd8-baa8-a407440dd69a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "26459e7a-e7cc-4ecd-a92e-9390f295387a",
+              "name": "IMOS station locations map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-imos-station-locations",
+              "resourceId": "26459e7a-e7cc-4ecd-a92e-9390f295387a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "8b58cec0-fdf0-4ff1-9d8f-42bb6bfa8593",
+              "name": "Reduction and shift in pelagic longlines 2006-10 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-pelagic-longlines-2006-2010",
+              "resourceId": "8b58cec0-fdf0-4ff1-9d8f-42bb6bfa8593",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "33b2b392-b2ce-49b9-8261-cbd15718167d",
+              "name": "Annual Mean Change in surface pH map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-annual-mean-change-in-surface-ph",
+              "resourceId": "33b2b392-b2ce-49b9-8261-cbd15718167d",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "23374190-0567-4de9-9b52-f806bc40d05a",
+              "name": "Expansion in distribution of Noctiluca Scintillans - Historical map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-expansion-in-noctiluca-scintillans-historic",
+              "resourceId": "23374190-0567-4de9-9b52-f806bc40d05a",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "d6c5fc3e-c469-4f3d-b17c-10a57d0797d0",
+              "name": "Seismic surveys - C Total 3D survey metres map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-seismic-surveys-c-3d-survey-meters",
+              "resourceId": "d6c5fc3e-c469-4f3d-b17c-10a57d0797d0",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "11612694-8322-4875-a0a5-b13ca85a362b",
+              "name": "December sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-december-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "11612694-8322-4875-a0a5-b13ca85a362b",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "5d68a269-dddc-41f7-84e4-4648bf1c4ca5",
+              "name": "Example of marine spatial management map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-example-of-marine-spatial-management",
+              "resourceId": "5d68a269-dddc-41f7-84e4-4648bf1c4ca5",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "f3574869-30bf-447a-8f43-8ef447106875",
+              "name": "Reef Biodiversity - D Crown of Thorns density map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-reef-biodiversity-d-crown-of-thorns",
+              "resourceId": "f3574869-30bf-447a-8f43-8ef447106875",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "df18e0f9-1a3e-4223-b45a-60ca813306c1",
+              "name": "April sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-april-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "df18e0f9-1a3e-4223-b45a-60ca813306c1",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "ecc392e6-8cb5-4884-96f7-57f31f311fa4",
+              "name": "February sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-february-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "ecc392e6-8cb5-4884-96f7-57f31f311fa4",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "7c737062-5cd0-41ec-a483-5e076cf974b7",
+              "name": "October sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-october-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "7c737062-5cd0-41ec-a483-5e076cf974b7",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "90aa0b1e-1245-4bfd-ba2c-d9effdbd0634",
+              "name": "June sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-june-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "90aa0b1e-1245-4bfd-ba2c-d9effdbd0634",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "a203714e-1324-4ca3-85db-cb3aa6410586",
+              "name": "Australia's marine regions map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-australian-marine-regions",
+              "resourceId": "a203714e-1324-4ca3-85db-cb3aa6410586",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "e99b6773-717d-49e2-82f6-e4d907fb6ec2",
+              "name": "August sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-august-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "e99b6773-717d-49e2-82f6-e4d907fb6ec2",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "199f2bcd-b2d1-4e0f-91da-ed0f02c4d1ad",
+              "name": "January sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-january-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "199f2bcd-b2d1-4e0f-91da-ed0f02c4d1ad",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "6755685b-384e-4cb5-9c93-09b4bf1c69c3",
+              "name": "May sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-may-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "6755685b-384e-4cb5-9c93-09b4bf1c69c3",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "8aa4eb03-2416-46fc-a62c-b9b07511cbee",
+              "name": "Wells drilled for oil and gas 2001-15 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-wells-drilled-for-oil-and-gas",
+              "resourceId": "8aa4eb03-2416-46fc-a62c-b9b07511cbee",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "1495df31-3fe8-4d44-b888-591e4c1a84c5",
+              "name": "Connectivity of habitats - A Marine Larvae map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-connectivity-of-habitats-a-marine-larvae",
+              "resourceId": "1495df31-3fe8-4d44-b888-591e4c1a84c5",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "61070311-13d4-4cff-af3a-54619df1bb6c",
+              "name": "Observational derived dissolved oxygen map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-dissolved-oxygen",
+              "resourceId": "61070311-13d4-4cff-af3a-54619df1bb6c",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "8e96e340-5017-44b6-8f1c-8af597ad732e",
+              "name": "Reef Biodiversity - C Proportion of introduced species map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-reef-biodiversity-c-introduced-species",
+              "resourceId": "8e96e340-5017-44b6-8f1c-8af597ad732e",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
+              "name": "Great Barrier Reef Marine Park map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
+              "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "923c1df9-6995-4783-8698-f9e2aad889ae",
+              "name": "Predicted concentrations of floating debris map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-floating-debris",
+              "resourceId": "923c1df9-6995-4783-8698-f9e2aad889ae",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "3ec12854-1b50-4b35-b798-b313a4c51561",
+              "name": "July sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-july-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "3ec12854-1b50-4b35-b798-b313a4c51561",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "afd06d90-a4cc-4cd5-8b52-efae507cf0e4",
+              "name": "Expansion in distribution Noctiluca Scintillans 2007-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-expansion-in-noctiluca-scintillans-2007-2015",
+              "resourceId": "afd06d90-a4cc-4cd5-8b52-efae507cf0e4",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "e40c602e-176d-4681-8a3c-f75dc983b154",
+              "name": "September sea surface temperature trends 1982-2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-september-sea-surface-temperature-trend-1982-2015",
+              "resourceId": "e40c602e-176d-4681-8a3c-f75dc983b154",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "ea4c0cc9-5e60-4830-89e4-82d261dd5d15",
+              "name": "Seismic surveys - A 2D and 3D Transect lines map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-seismic-surveys-a-2d-3d-transect-lines",
+              "resourceId": "ea4c0cc9-5e60-4830-89e4-82d261dd5d15",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "f7c103ce-974c-4472-a1cf-bfdde174ace0",
+              "name": "Reduction and shift in pelagic longlines 2001-05 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-pelagic-longlines-2001-2005",
+              "resourceId": "f7c103ce-974c-4472-a1cf-bfdde174ace0",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "98feb87a-ce44-47b2-9bd5-9394c2a48d08",
+              "name": "IMCRA bioregions trawl swept area percent of total area map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-imcra-bioregions-trawl-swept-area",
+              "resourceId": "98feb87a-ce44-47b2-9bd5-9394c2a48d08",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "b645a153-d0de-493d-9cee-8c69dd2dcd4b",
+              "name": "Reef life survey sites map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-reef-life-survey-sites",
+              "resourceId": "b645a153-d0de-493d-9cee-8c69dd2dcd4b",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "2cf50290-fd54-4810-ab18-bd8760b44aeb",
+              "name": "Reduction and shift in pelagic longlines 2011-14 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-pelagic-longlines-2011-2014",
+              "resourceId": "2cf50290-fd54-4810-ab18-bd8760b44aeb",
+              "cacheDuration": "0d"
+            },
+            {
+              "id": "0c2d803b-7f96-4631-b5b8-8203c67d89b4",
+              "name": "Shipping density map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "https://data.gov.au",
+              "datasetId": "2016-soe-mar-shipping-density",
+              "resourceId": "0c2d803b-7f96-4631-b5b8-8203c67d89b4",
               "cacheDuration": "0d"
             }
           ]
