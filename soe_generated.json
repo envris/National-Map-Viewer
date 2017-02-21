@@ -1500,6 +1500,26 @@
           "type": "group",
           "items": [
             {
+              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "name": "INW1 Distribution of European Carp map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-european-carp",
+              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-european-carp"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
               "id": "27af3628-0a74-4402-8afa-953a31b87908",
               "name": "Distribution of Water Hyacinth map service",
               "debugFormat": "Esri REST",
@@ -1614,26 +1634,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-rainfall"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
-              "name": "Distribution of European Carp map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-european-carp",
-              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-european-carp"
                   }
                 ],
                 "cacheDuration": "1m"
