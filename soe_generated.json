@@ -1500,6 +1500,266 @@
           "type": "group",
           "items": [
             {
+              "id": "27af3628-0a74-4402-8afa-953a31b87908",
+              "name": "Distribution of Water Hyacinth map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-water-hyacinth",
+              "resourceId": "27af3628-0a74-4402-8afa-953a31b87908",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-water-hyacinth"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "790b72ef-a70a-46d0-be2f-e8e42b115123",
+              "name": "Rainfall deficiencies 2013-15 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deficiencies",
+              "resourceId": "790b72ef-a70a-46d0-be2f-e8e42b115123",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deficiencies"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "07f67252-dc4a-4fdd-9596-6cf50a677828",
+              "name": "Annual rainfall deciles 2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2015",
+              "resourceId": "07f67252-dc4a-4fdd-9596-6cf50a677828",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2015"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "7babb413-c021-441b-8116-46330960297a",
+              "name": "Annual rainfall deciles 2014 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2014",
+              "resourceId": "7babb413-c021-441b-8116-46330960297a",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2014"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "aa7c374c-d440-4086-911f-66bd451bee5a",
+              "name": "Annual rainfall deciles 2013 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2013",
+              "resourceId": "aa7c374c-d440-4086-911f-66bd451bee5a",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2013"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "name": "Rainfall deciles for the Lake Eyre Basin, January 2016 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-lake-eyre-rainfall",
+              "resourceId": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-rainfall"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "name": "Distribution of European Carp map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-european-carp",
+              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-european-carp"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "043fa644-36bd-46ef-a874-52c24c27c8ef",
+              "name": "Annual rainfall deciles 2012 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-rainfall-deciles-2012",
+              "resourceId": "043fa644-36bd-46ef-a874-52c24c27c8ef",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deciles-2012"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "name": "Monthly streamflow for the Lake Eyre Basin, January 2016 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-lake-eyre-stream",
+              "resourceId": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-stream"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
+              "name": "Distribution of Eastern Gambusia (Gambusia holbrooki) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-eastern-gambusia",
+              "resourceId": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-eastern-gambusia"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
+              "name": "Average annual rainfall map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-avg-ann-rainfall",
+              "resourceId": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-avg-ann-rainfall"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "3ec14210-847e-477c-adda-da23efa8860b",
+              "name": "Distribution of Arrowhead (Sagittaria platyphylla) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-arrowhead",
+              "resourceId": "3ec14210-847e-477c-adda-da23efa8860b",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-arrowhead"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "d797826d-f962-446f-a146-420b39e84a8c",
+              "name": "Australian drainage divisions map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-aus-drainage-div",
+              "resourceId": "d797826d-f962-446f-a146-420b39e84a8c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-aus-drainage-div"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
               "id": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
               "name": "Principal hydrogeology of Australia map service",
               "debugFormat": "Esri REST",
@@ -2906,6 +3166,32 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-mar-shipping-density"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Overview Map",
+          "type": "group",
+          "items": [
+            {
+              "id": "b6131bdf-b9cb-425b-9ad5-931de94d5f95",
+              "name": "Terrestrial Protected Areas 2011-16 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-ovw-terr-protected-areas-2011-2016",
+              "resourceId": "b6131bdf-b9cb-425b-9ad5-931de94d5f95",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-ovw-terr-protected-areas-2011-2016"
                   }
                 ],
                 "cacheDuration": "1m"
