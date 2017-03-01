@@ -10,20 +10,40 @@
           "type": "group",
           "items": [
             {
-              "id": "8c6adbfc-b71a-49c8-ad0e-a2f643495c75",
-              "name": "ATM24 Global surface air temperature changes, 2071–2100, relative to 1981–2010, using a low-emissions to moderate-emissions scenario",
+              "id": "3b81b7af-c7b7-42ca-9f93-016742d70580",
+              "name": "ATM20 Rainfall deciles in Australia, 1 January 2010 - 31 December 2011",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-atm-surface-air-temp",
-              "resourceId": "8c6adbfc-b71a-49c8-ad0e-a2f643495c75",
+              "datasetId": "2016-soe-atm-rain-dec-jan10-to-dec11",
+              "resourceId": "3b81b7af-c7b7-42ca-9f93-016742d70580",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-atm-surface-air-temp"
+                    "content": "https://data.gov.au/dataset/2016-soe-atm-rain-dec-jan10-to-dec11"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
+              "name": "ATM18 Trends in Australian mean temperatures, 1910–2015",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-atm-annual-mean-temp-1910-2015",
+              "resourceId": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-atm-annual-mean-temp-1910-2015"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -44,6 +64,26 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-atm-forest-fire-danger-index"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "8c6adbfc-b71a-49c8-ad0e-a2f643495c75",
+              "name": "ATM24 Global surface air temperature changes, 2071–2100, relative to 1981–2010, using a low-emissions to moderate-emissions scenario",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-atm-surface-air-temp",
+              "resourceId": "8c6adbfc-b71a-49c8-ad0e-a2f643495c75",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-atm-surface-air-temp"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -88,46 +128,6 @@
                 ],
                 "cacheDuration": "1m"
               }
-            },
-            {
-              "id": "3b81b7af-c7b7-42ca-9f93-016742d70580",
-              "name": "ATM20 Rainfall deciles in Australia, 1 January 2010 - 31 December 2011",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-atm-rain-dec-jan10-to-dec11",
-              "resourceId": "3b81b7af-c7b7-42ca-9f93-016742d70580",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-atm-rain-dec-jan10-to-dec11"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
-              "name": "ATM18 Trends in Australian mean temperatures, 1910–2015",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-atm-annual-mean-temp-1910-2015",
-              "resourceId": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-atm-annual-mean-temp-1910-2015"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
             }
           ]
         },
@@ -135,6 +135,366 @@
           "name": "Biodiversity Map",
           "type": "group",
           "items": [
+            {
+              "id": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
+              "name": "Threatened species richness map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-threatened-sp-richness",
+              "resourceId": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-threatened-sp-richness"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
+              "name": "Threatened ecological community count map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-tec-count",
+              "resourceId": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-tec-count"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "b43eb1e8-567d-47ab-8f08-628ffe741926",
+              "name": "The distribution of phylogenetic endemism for Myobatrachidae frogs across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-myo-frogs",
+              "resourceId": "b43eb1e8-567d-47ab-8f08-628ffe741926",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-myo-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "name": "The distribution of phylogenetic endemism for Hylidae frogs across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-hyl-frogs",
+              "resourceId": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-hyl-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "89bc8411-d015-4236-b36a-8d34b992cb84",
+              "name": "The distribution of phylogenetic endemism for Passerine birds across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-birds",
+              "resourceId": "89bc8411-d015-4236-b36a-8d34b992cb84",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-birds"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "fc9dcf57-5597-4263-ba59-56ea1108a808",
+              "name": "The distribution of phylogenetic endemism for vascular plants across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-vascplants",
+              "resourceId": "fc9dcf57-5597-4263-ba59-56ea1108a808",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-vascplants"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
+              "name": "The distribution of phylogenetic endemism for mammals across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-mammal",
+              "resourceId": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-mammal"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "295be5a9-80d8-4002-89e2-debbc36051c5",
+              "name": "The distribution of phylogenetic endemism for snakes and lizards across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-snake-lizards",
+              "resourceId": "295be5a9-80d8-4002-89e2-debbc36051c5",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-snake-lizards"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
+              "name": "The distribution of phylogenetic diversity for vascular plants across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-vascplants",
+              "resourceId": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-vascplants"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
+              "name": "The distribution of phylogenetic diversity for snakes and lizards across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-snake-lizards",
+              "resourceId": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-snake-lizards"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
+              "name": "The distribution of phylogenetic diversity for Myobatrachidae frogs across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-myo-frogs",
+              "resourceId": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-myo-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "40be8902-acf6-454a-8599-ca1f30726e03",
+              "name": "The distribution of phylogenetic diversity for Passerine birds across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-birds",
+              "resourceId": "40be8902-acf6-454a-8599-ca1f30726e03",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-birds"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
+              "name": "The distribution of phylogenetic diversity for Hylid frogs in Australia ",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-hyl-frogs",
+              "resourceId": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-hyl-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
+              "name": "The distribution of phylogenetic diversity for mammals across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-mammal",
+              "resourceId": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-mammal"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "273b24ba-51fa-4462-bae9-1f33af48f988",
+              "name": "The distribution of species identifed as potentially vulnerable across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-vulnerable-freshwater-fish",
+              "resourceId": "273b24ba-51fa-4462-bae9-1f33af48f988",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-vulnerable-freshwater-fish"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "name": "The distribution of freshwater fish research effort across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-research-effort",
+              "resourceId": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-research-effort"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
+              "name": "The condition of Australian rivers",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-river-condition",
+              "resourceId": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-river-condition"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "name": "The distribution of currently listed freshwater fish across Australia map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
+              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
             {
               "id": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
               "name": "Number of species records pre 2012 map service",
@@ -150,6 +510,66 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-pre2012"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "d495d85e-983c-445a-b752-e271d8dbf549",
+              "name": "Percentage increase in number of records to 2015 map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-species-records-increase2015",
+              "resourceId": "d495d85e-983c-445a-b752-e271d8dbf549",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-increase2015"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
+              "name": "NVIS community loss (%) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-nvis-community-loss",
+              "resourceId": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-loss"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "9d62d724-2e52-471b-819d-110b8278e2f1",
+              "name": "NVIS community change 5000 ha (%) map service",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-nvis-community-change5000",
+              "resourceId": "9d62d724-2e52-471b-819d-110b8278e2f1",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-change5000"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -516,46 +936,6 @@
               }
             },
             {
-              "id": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
-              "name": "NVIS community loss (%) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-nvis-community-loss",
-              "resourceId": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-loss"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "9d62d724-2e52-471b-819d-110b8278e2f1",
-              "name": "NVIS community change 5000 ha (%) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-nvis-community-change5000",
-              "resourceId": "9d62d724-2e52-471b-819d-110b8278e2f1",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-change5000"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
               "id": "b4bdd2f5-c68b-45cf-a1ec-5fcf4fe0f159",
               "name": "Bioregion Priority 2010 map service",
               "debugFormat": "Esri REST",
@@ -576,26 +956,6 @@
               }
             },
             {
-              "id": "d495d85e-983c-445a-b752-e271d8dbf549",
-              "name": "Percentage increase in number of records to 2015 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-species-records-increase2015",
-              "resourceId": "d495d85e-983c-445a-b752-e271d8dbf549",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-increase2015"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
               "id": "55838336-86e0-4b50-9bf2-40d91d0be7d6",
               "name": "Bioregion Priority 2016 map service",
               "debugFormat": "Esri REST",
@@ -610,366 +970,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-bioregion-priority-2016"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
-              "name": "Threatened ecological community count map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-tec-count",
-              "resourceId": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-tec-count"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
-              "name": "Threatened species richness map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-threatened-sp-richness",
-              "resourceId": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-threatened-sp-richness"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
-              "name": "The distribution of river condition across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-river-condition",
-              "resourceId": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-river-condition"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
-              "name": "The distribution of currently listed freshwater fish across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
-              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "273b24ba-51fa-4462-bae9-1f33af48f988",
-              "name": "The distribution of species identifed as potentially vulnerable across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-vulnerable-freshwater-fish",
-              "resourceId": "273b24ba-51fa-4462-bae9-1f33af48f988",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-vulnerable-freshwater-fish"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
-              "name": "The distribution of freshwater fish research effort across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-research-effort",
-              "resourceId": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-research-effort"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
-              "name": "The distribution of phylogenetic diversity for mammals across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-mammal",
-              "resourceId": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-mammal"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
-              "name": "The distribution of phylogenetic endemism for Hylidae frogs across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-hyl-frogs",
-              "resourceId": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-hyl-frogs"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "40be8902-acf6-454a-8599-ca1f30726e03",
-              "name": "The distribution of phylogenetic diversity for Passerine birds across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-birds",
-              "resourceId": "40be8902-acf6-454a-8599-ca1f30726e03",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-birds"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "fc9dcf57-5597-4263-ba59-56ea1108a808",
-              "name": "The distribution of phylogenetic endemism for vascular plants across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-vascplants",
-              "resourceId": "fc9dcf57-5597-4263-ba59-56ea1108a808",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-vascplants"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
-              "name": "The distribution of phylogenetic diversity for snakes and lizards across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-snake-lizards",
-              "resourceId": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-snake-lizards"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
-              "name": "The distribution of phylogenetic diversity for Hylidae frogs across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-hyl-frogs",
-              "resourceId": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-hyl-frogs"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
-              "name": "The distribution of phylogenetic endemism for mammals across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-mammal",
-              "resourceId": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-mammal"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "295be5a9-80d8-4002-89e2-debbc36051c5",
-              "name": "The distribution of phylogenetic endemism for snakes and lizards across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-snake-lizards",
-              "resourceId": "295be5a9-80d8-4002-89e2-debbc36051c5",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-snake-lizards"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "89bc8411-d015-4236-b36a-8d34b992cb84",
-              "name": "The distribution of phylogenetic endemism for Passerine birds across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-birds",
-              "resourceId": "89bc8411-d015-4236-b36a-8d34b992cb84",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-birds"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
-              "name": "The distribution of phylogenetic diversity for vascular plants across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-vascplants",
-              "resourceId": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-vascplants"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
-              "name": "The distribution of phylogenetic diversity for Myobatrachidae frogs across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-myo-frogs",
-              "resourceId": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-myo-frogs"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "b43eb1e8-567d-47ab-8f08-628ffe741926",
-              "name": "The distribution of phylogenetic endemism for Myobatrachidae frogs across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-myo-frogs",
-              "resourceId": "b43eb1e8-567d-47ab-8f08-628ffe741926",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-myo-frogs"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -1746,100 +1746,20 @@
           "type": "group",
           "items": [
             {
-              "id": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
-              "name": "Vegetation change under climate scenarios - Projected (2050 MIROC 5 RCP 8.5) map service",
+              "id": "238f4a98-209c-4479-aa67-23108c982399",
+              "name": "LAN34 Indigenous land and sea interests in northern Australia",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-miroc",
-              "resourceId": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "datasetId": "2016-soe-lan-indigenous-ipa-native-title",
+              "resourceId": "238f4a98-209c-4479-aa67-23108c982399",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-projected-2050-miroc"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
-              "name": "Vegetation change under climate scenarios - Projected (2050 CAN ESM 2 RCP 8.5) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-can-esm",
-              "resourceId": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-projected-2050-can-esm"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "1580bebf-63a1-4c22-b9b8-53e817c41956",
-              "name": "Vegetation change under climate scenarios - Predicted (1990 baseline) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-predicted",
-              "resourceId": "1580bebf-63a1-4c22-b9b8-53e817c41956",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-predicted"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
-              "name": "Novel vegetation communities under climate scenarios - 2050 MIROC 5 RCP 8.5 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-novel-veg-comm-2050-miroc-5",
-              "resourceId": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-novel-veg-comm-2050-miroc-5"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
-              "name": "Novel vegetation communities under climate scenarios - 2050 CAN ESM 2 RCP 8.5 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-novel-veg-comm-2050-can-esm-2",
-              "resourceId": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-novel-veg-comm-2050-can-esm-2"
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-indigenous-ipa-native-title"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -1847,7 +1767,7 @@
             },
             {
               "id": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
-              "name": "Northern Australia Indigenous Land Interests (inc ILUAs) map service",
+              "name": "LAN34a Indigenous land and sea interests in northern Australia",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -1866,40 +1786,120 @@
               }
             },
             {
-              "id": "ec95ae94-1241-40dc-8924-4c53825d9223",
-              "name": "Land Percentage of remaining native vegetation per Agro Climatic region map service",
+              "id": "0f672cbc-e0ca-4eed-815d-85d75eec39e7",
+              "name": "LAN32 Density distribution of feral camels across their range in Australia, 2008",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-agro-climatic-remaining-veg",
-              "resourceId": "ec95ae94-1241-40dc-8924-4c53825d9223",
+              "datasetId": "2016-soe-lan-camel-density-distribution",
+              "resourceId": "0f672cbc-e0ca-4eed-815d-85d75eec39e7",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-agro-climatic-remaining-veg"
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-camel-density-distribution"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
-              "name": "Vegetation change under climate scenarios - Observed (pre 1750) map service",
+              "id": "17633676-5ab7-4156-909c-ced6594422d8",
+              "name": "LAN31 Investment in Indigenous land and sea management, 2011 - 16",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-climate-scenarios-observed",
-              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "datasetId": "2016-soe-lan-indigenous-land-sea-management",
+              "resourceId": "17633676-5ab7-4156-909c-ced6594422d8",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-observed"
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-indigenous-land-sea-management"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "12c9ceff-6574-4036-931e-1d41b2aae643",
+              "name": "LAN29 Vegetation assets, states and transitions (VAST) classification of Australian vegetation",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-vast-v2",
+              "resourceId": "12c9ceff-6574-4036-931e-1d41b2aae643",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-vast-v2"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "b7f01b0d-ec74-47bb-a2a0-7cadeba9de0b",
+              "name": "LAN27 Australia’s forest extent by forest type",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-aus-forest-extent",
+              "resourceId": "b7f01b0d-ec74-47bb-a2a0-7cadeba9de0b",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-aus-forest-extent"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "375427f2-b5f3-4854-8f91-01a88afe6ff8",
+              "name": "LAN26 Extent of all forms of vegetation across Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-integrated-vegetation",
+              "resourceId": "375427f2-b5f3-4854-8f91-01a88afe6ff8",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-integrated-vegetation"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "86ee4379-1b02-4d85-a9d4-674be459e7db",
+              "name": "LAN25 Grade of soil erosion for the physiographic provinces of Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-erosion",
+              "resourceId": "86ee4379-1b02-4d85-a9d4-674be459e7db",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-erosion"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -1907,7 +1907,7 @@
             },
             {
               "id": "59783465-8f4f-445c-9d17-a816bd27b143",
-              "name": "Estimated net soil loss due to wind erosion for the 22nd - 23rd sep 2009 map service",
+              "name": "LAN23 Estimated net soil loss due to wind erosion, 22–23 September 2009",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -1927,11 +1927,11 @@
             },
             {
               "id": "353d9fa5-5aaa-4b55-ad22-ce717099c95e",
-              "name": "Proportion of bare soil, photosynthetically active vegetation and non-photosynthetically active vegetation - 2016 map service",
+              "name": "LAN22b Proportion of bare soil, photosynthetically active vegetation and non-photosynthetically active vegetation (March, April, May) - 2015",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-fractional-cover-2016",
+              "datasetId": "2016-soe-lan-fractional-cover-2015",
               "resourceId": "353d9fa5-5aaa-4b55-ad22-ce717099c95e",
               "cacheDuration": "1m",
               "itemProperties": {
@@ -1939,27 +1939,87 @@
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-fractional-cover-2016"
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-fractional-cover-2015"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "17633676-5ab7-4156-909c-ced6594422d8",
-              "name": "Investment in Indigenous Land and Sea management map service",
+              "id": "a5724987-4011-4d22-8a4b-b8bcd8594b9d",
+              "name": "LAN22a Proportion of bare soil, photosynthetically active vegetation and non-photosynthetically active vegetation (March, April, May) - 2006",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-indigenous-land-sea-management",
-              "resourceId": "17633676-5ab7-4156-909c-ced6594422d8",
+              "datasetId": "2016-soe-lan-fractional-cover-2006",
+              "resourceId": "a5724987-4011-4d22-8a4b-b8bcd8594b9d",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-indigenous-land-sea-management"
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-fractional-cover-2006"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "78bbd41b-b73b-4568-b11d-e5aecc3bd6aa",
+              "name": "LAN20 Rating and condition for soil acidity",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-acidification",
+              "resourceId": "78bbd41b-b73b-4568-b11d-e5aecc3bd6aa",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-acidification"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "254353c2-5941-4576-9e5f-794157e4ae50",
+              "name": "LAN17 Rating and condition for soil organic carbon",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-carbon",
+              "resourceId": "254353c2-5941-4576-9e5f-794157e4ae50",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-carbon"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
+              "name": "LAN16 Generalised map of soil orders for Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-soil-classification",
+              "resourceId": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-classification"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -1967,7 +2027,7 @@
             },
             {
               "id": "e33c991d-1ce9-4b25-bedf-6b9a87a63850",
-              "name": " Average annual rainfall in the Great Barrier Reef catchment map service",
+              "name": "LAN15 Great Barrier Reef catchments",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -1980,6 +2040,446 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-lan-gbr-avg-ann-rainfall"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
+              "name": "LAN14 Indigenous land and sea interests across Australia, and Indigenous Protected Areas, 2016",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-indigenous-ipa-ili",
+              "resourceId": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-indigenous-ipa-ili"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "859254cb-58d8-4b96-9613-b330f7ba9ad6",
+              "name": "LAN13 Australian land use at the national scale, 2010–11",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-aus-land-use",
+              "resourceId": "859254cb-58d8-4b96-9613-b330f7ba9ad6",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-aus-land-use"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
+              "name": "LAN10 Occurrences of chytrid fungus (Batrachochytrium dendrobatidis) across Australia, 2013",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-chytrid-fungus",
+              "resourceId": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-chytrid-fungus"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "ec95ae94-1241-40dc-8924-4c53825d9223",
+              "name": "LAN9 Percentage of Australia’s native vegetation remaining, by agroclimatic region, 2011",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-agro-climatic-remaining-veg",
+              "resourceId": "ec95ae94-1241-40dc-8924-4c53825d9223",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-agro-climatic-remaining-veg"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "47241230-3856-4755-b476-1e65c5993d4a",
+              "name": "LAN4 National fire return frequency for Australia, 1988–2015",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-fire-return-frequency",
+              "resourceId": "47241230-3856-4755-b476-1e65c5993d4a",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-fire-return-frequency"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
+              "name": "LAN2b Novel vegetation communities under climate scenarios for mild Model for Interdisciplinary Research on Climate 5 climate models under a high-emissions scenario (RCP8.5)",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-novel-veg-comm-2050-miroc-5",
+              "resourceId": "5585ad06-2be2-463c-8dfe-dde4e978e58c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-novel-veg-comm-2050-miroc-5"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
+              "name": "LAN2a Novel vegetation communities under climate scenarios for hot Canadian Earth System Model 2 under a high-emissions scenario (RCP8.5)",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-novel-veg-comm-2050-can-esm-2",
+              "resourceId": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-novel-veg-comm-2050-can-esm-2"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "name": "LAN1d Projected distributions of vegetation subgroups by 2050 (mild Model for Interdisciplinary Research on Climate 5 climate model) under a high-emissions scenario (RCP8.5)",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-miroc",
+              "resourceId": "fa862967-f6df-41c2-b0da-2c43c6bcd9bf",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-projected-2050-miroc"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
+              "name": "LAN1c Projected distributions of vegetation subgroups by 2050 (hot Canadian Earth System Model 2) under a high-emissions scenario (RCP8.5)",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-projected-2050-can-esm",
+              "resourceId": "65096aae-37c4-4ee8-ab27-c1f17ce35b70",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-projected-2050-can-esm"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "1580bebf-63a1-4c22-b9b8-53e817c41956",
+              "name": "LAN1b Projected distributions of vegetation types derived by the AdaptNRM project model predictions of subgroups for the baseline period (1990)",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-predicted",
+              "resourceId": "1580bebf-63a1-4c22-b9b8-53e817c41956",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-predicted"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "name": "LAN1a Observed major vegetation subgroups, from Australia’s NVIS database",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-climate-scenarios-observed",
+              "resourceId": "662d6a05-6bc9-40ab-aa4f-b9822dd22fcd",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-climate-scenarios-observed"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4eab8d84-3f5c-4ae4-ad76-d17f1fc23eae",
+              "name": "LAN24j Dust storm activity across Australia based on 356 stations, 2010",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2010",
+              "resourceId": "4eab8d84-3f5c-4ae4-ad76-d17f1fc23eae",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2010"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "290a74d8-7d5a-45ae-a152-e190192e65d6",
+              "name": "LAN24k Dust storm activity across Australia based on 356 stations, 2011",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2011",
+              "resourceId": "290a74d8-7d5a-45ae-a152-e190192e65d6",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2011"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "98b99cf2-8b71-4143-a996-0f71fad8b72d",
+              "name": "LAN24e Dust storm activity across Australia based on 356 stations, 2005",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2005",
+              "resourceId": "98b99cf2-8b71-4143-a996-0f71fad8b72d",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2005"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "646f6c2e-a49e-43b7-904c-307830e40c81",
+              "name": "LAN24d Dust storm activity across Australia based on 356 stations, 2004",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2004",
+              "resourceId": "646f6c2e-a49e-43b7-904c-307830e40c81",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2004"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "3e851a89-edaf-4ffd-a86c-03d90d0055d1",
+              "name": "LAN24g Dust storm activity across Australia based on 356 stations, 2007",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2007",
+              "resourceId": "3e851a89-edaf-4ffd-a86c-03d90d0055d1",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2007"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4f958270-b33b-4348-95e5-017d199ee08f",
+              "name": "LAN24f Dust storm activity across Australia based on 356 stations, 2006",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2006",
+              "resourceId": "4f958270-b33b-4348-95e5-017d199ee08f",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2006"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "893092f8-f703-4268-b6f2-39c2b39593bb",
+              "name": "LAN24a Dust storm activity across Australia based on 356 stations, 2001",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2001",
+              "resourceId": "893092f8-f703-4268-b6f2-39c2b39593bb",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2001"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "adfcd9f6-7182-460a-bddd-d87d31c1befb",
+              "name": "LAN24c Dust storm activity across Australia based on 356 stations, 2003",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2003",
+              "resourceId": "adfcd9f6-7182-460a-bddd-d87d31c1befb",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2003"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "06de6394-79f1-4cb4-9229-ad887608f2af",
+              "name": "LAN24b Dust storm activity across Australia based on 356 stations, 2002",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2002",
+              "resourceId": "06de6394-79f1-4cb4-9229-ad887608f2af",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2002"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "9bccb534-9d0e-462b-af66-d3df15c6902c",
+              "name": "LAN24i Dust storm activity across Australia based on 356 stations, 2009",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2009",
+              "resourceId": "9bccb534-9d0e-462b-af66-d3df15c6902c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2009"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "8c8e35a2-34b2-4b9b-9cd8-6f7470cfcc99",
+              "name": "LAN24h Dust storm activity across Australia based on 356 stations, 2008",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-dust-storm-activity-2008",
+              "resourceId": "8c8e35a2-34b2-4b9b-9cd8-6f7470cfcc99",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-dust-storm-activity-2008"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -2004,266 +2504,6 @@
                 ],
                 "cacheDuration": "1m"
               }
-            },
-            {
-              "id": "86ee4379-1b02-4d85-a9d4-674be459e7db",
-              "name": "Grade of soil erosion for the physiographic of Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-soil-erosion",
-              "resourceId": "86ee4379-1b02-4d85-a9d4-674be459e7db",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-erosion"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "859254cb-58d8-4b96-9613-b330f7ba9ad6",
-              "name": "Australian land use at the national scale, 2010-2011 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-aus-land-use",
-              "resourceId": "859254cb-58d8-4b96-9613-b330f7ba9ad6",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-aus-land-use"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
-              "name": "Indigenous land and sea interests Indigenous Protected Areas map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-indigenous-ipa-ili",
-              "resourceId": "75802c6b-db6b-4da8-8a31-64a312cb1f46",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-indigenous-ipa-ili"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
-              "name": "Occurences of Batrachochytrium dendrobatidis (chytrid fungus) across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-chytrid-fungus",
-              "resourceId": "8af27bf0-00f2-4608-9164-7df4428f6d7a",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-chytrid-fungus"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "254353c2-5941-4576-9e5f-794157e4ae50",
-              "name": "Rating of condiiton for soil carbon map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-soil-carbon",
-              "resourceId": "254353c2-5941-4576-9e5f-794157e4ae50",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-carbon"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "12c9ceff-6574-4036-931e-1d41b2aae643",
-              "name": "VAST classification of Australian vegetation map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-vast-v2",
-              "resourceId": "12c9ceff-6574-4036-931e-1d41b2aae643",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-vast-v2"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
-              "name": "Australian Soil Classification orders map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-soil-classification",
-              "resourceId": "ee9d9cae-188e-4160-9d36-3d1b19b3ea58",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-classification"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "238f4a98-209c-4479-aa67-23108c982399",
-              "name": "Native Title boundaries and Indigenous Protected Areas map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-indigenous-ipa-native-title",
-              "resourceId": "238f4a98-209c-4479-aa67-23108c982399",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-indigenous-ipa-native-title"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "78bbd41b-b73b-4568-b11d-e5aecc3bd6aa",
-              "name": "Rating of condition for soil acidity map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-soil-acidification",
-              "resourceId": "78bbd41b-b73b-4568-b11d-e5aecc3bd6aa",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-soil-acidification"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "375427f2-b5f3-4854-8f91-01a88afe6ff8",
-              "name": "Extent of all forms of vegetation across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-integrated-vegetation",
-              "resourceId": "375427f2-b5f3-4854-8f91-01a88afe6ff8",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-integrated-vegetation"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "47241230-3856-4755-b476-1e65c5993d4a",
-              "name": "National Fire return frequency for Australia (1988 - 2015) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-fire-return-frequency",
-              "resourceId": "47241230-3856-4755-b476-1e65c5993d4a",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-fire-return-frequency"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "0f672cbc-e0ca-4eed-815d-85d75eec39e7",
-              "name": "Density distribution (2008) of feral camels map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-camel-density-distribution",
-              "resourceId": "0f672cbc-e0ca-4eed-815d-85d75eec39e7",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-camel-density-distribution"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "a5724987-4011-4d22-8a4b-b8bcd8594b9d",
-              "name": "Proportion of bare soil, photosynthetically active vegetation and non-photosynthetically active vegetation - 2006 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-fractional-cover-2006",
-              "resourceId": "a5724987-4011-4d22-8a4b-b8bcd8594b9d",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-fractional-cover-2006"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
             }
           ]
         },
@@ -2271,6 +2511,26 @@
           "name": "Marine environment Map",
           "type": "group",
           "items": [
+            {
+              "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
+              "name": "MAR2 Australia’s marine regions, including the Great Barrier Reef Marine Park",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
+              "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
             {
               "id": "cf818915-3ebc-43b4-8997-1f8be154e96a",
               "name": "MAR43 Trend in satellite-derived surface chlorophyll concentrations along the Bonney coastline, 2000–15",
@@ -3106,26 +3366,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-mar-australian-eez"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "34e70aff-9f65-48de-9fdc-638ebe282038",
-              "name": "Great Barrier Reef Marine Park map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-mar-great-barrier-reef-marine-park",
-              "resourceId": "34e70aff-9f65-48de-9fdc-638ebe282038",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-mar-great-barrier-reef-marine-park"
                   }
                 ],
                 "cacheDuration": "1m"
