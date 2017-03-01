@@ -136,300 +136,100 @@
           "type": "group",
           "items": [
             {
-              "id": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
-              "name": "Threatened species richness map service",
+              "id": "17ed8188-7e87-4c62-87a5-feab8064149c",
+              "name": "BIO39c Proportion of IBRA regions represented in the National Reserve System - proportional change between 2011 and 2015",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-threatened-sp-richness",
-              "resourceId": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
+              "datasetId": "2016-soe-bio-nrs-protection-change",
+              "resourceId": "17ed8188-7e87-4c62-87a5-feab8064149c",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-threatened-sp-richness"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-nrs-protection-change"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
-              "name": "Threatened ecological community count map service",
+              "id": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
+              "name": "BIO39b Proportion of IBRA regions represented in the National Reserve System in 2015",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-tec-count",
-              "resourceId": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
+              "datasetId": "2016-soe-bio-2015-nrs-protection",
+              "resourceId": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-tec-count"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-2015-nrs-protection"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "b43eb1e8-567d-47ab-8f08-628ffe741926",
-              "name": "The distribution of phylogenetic endemism for Myobatrachidae frogs across Australia map service",
+              "id": "b1646dba-688d-4486-91e2-6644e5202647",
+              "name": "BIO39a Proportion of IBRA regions represented in the National Reserve System in 2011",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-myo-frogs",
-              "resourceId": "b43eb1e8-567d-47ab-8f08-628ffe741926",
+              "datasetId": "2016-soe-bio-2011-nrs-protection",
+              "resourceId": "b1646dba-688d-4486-91e2-6644e5202647",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-myo-frogs"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-2011-nrs-protection"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
-              "name": "The distribution of phylogenetic endemism for Hylidae frogs across Australia map service",
+              "id": "d495d85e-983c-445a-b752-e271d8dbf549",
+              "name": "BIO29b Records in the Atlas of Living Australia, by IBRA region showing percentage increase in number between 2012 and 2015",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-hyl-frogs",
-              "resourceId": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "datasetId": "2016-soe-bio-species-records-increase2015",
+              "resourceId": "d495d85e-983c-445a-b752-e271d8dbf549",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-hyl-frogs"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-increase2015"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "89bc8411-d015-4236-b36a-8d34b992cb84",
-              "name": "The distribution of phylogenetic endemism for Passerine birds across Australia map service",
+              "id": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
+              "name": "BIO29a Records in the Atlas of Living Australia, by IBRA region pre 2012",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-birds",
-              "resourceId": "89bc8411-d015-4236-b36a-8d34b992cb84",
+              "datasetId": "2016-soe-bio-species-records-pre2012",
+              "resourceId": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-birds"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "fc9dcf57-5597-4263-ba59-56ea1108a808",
-              "name": "The distribution of phylogenetic endemism for vascular plants across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-vascplants",
-              "resourceId": "fc9dcf57-5597-4263-ba59-56ea1108a808",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-vascplants"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
-              "name": "The distribution of phylogenetic endemism for mammals across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-mammal",
-              "resourceId": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-mammal"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "295be5a9-80d8-4002-89e2-debbc36051c5",
-              "name": "The distribution of phylogenetic endemism for snakes and lizards across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-snake-lizards",
-              "resourceId": "295be5a9-80d8-4002-89e2-debbc36051c5",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-snake-lizards"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
-              "name": "The distribution of phylogenetic diversity for vascular plants across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-vascplants",
-              "resourceId": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-vascplants"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
-              "name": "The distribution of phylogenetic diversity for snakes and lizards across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-snake-lizards",
-              "resourceId": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-snake-lizards"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
-              "name": "The distribution of phylogenetic diversity for Myobatrachidae frogs across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-myo-frogs",
-              "resourceId": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-myo-frogs"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "40be8902-acf6-454a-8599-ca1f30726e03",
-              "name": "The distribution of phylogenetic diversity for Passerine birds across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-birds",
-              "resourceId": "40be8902-acf6-454a-8599-ca1f30726e03",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-birds"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
-              "name": "The distribution of phylogenetic diversity for Hylid frogs in Australia ",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-hyl-frogs",
-              "resourceId": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-hyl-frogs"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
-              "name": "The distribution of phylogenetic diversity for mammals across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-diversity-mammal",
-              "resourceId": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-mammal"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "273b24ba-51fa-4462-bae9-1f33af48f988",
-              "name": "The distribution of species identifed as potentially vulnerable across Australia map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-vulnerable-freshwater-fish",
-              "resourceId": "273b24ba-51fa-4462-bae9-1f33af48f988",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-vulnerable-freshwater-fish"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-pre2012"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -437,7 +237,7 @@
             },
             {
               "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
-              "name": "The distribution of freshwater fish research effort across Australia map service",
+              "name": "BIO27d Distribution of freshwater fish research effort across Australia",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -457,7 +257,7 @@
             },
             {
               "id": "a182fb8a-1ef8-4fd4-921b-e7b864f2f884",
-              "name": "The condition of Australian rivers",
+              "name": "BIO27c Distribution of river condition",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -476,200 +276,20 @@
               }
             },
             {
-              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
-              "name": "The distribution of currently listed freshwater fish across Australia map service",
+              "id": "273b24ba-51fa-4462-bae9-1f33af48f988",
+              "name": "BIO27b Distribution of species identified as potentially vulnerable",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
-              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "datasetId": "2016-soe-bio-vulnerable-freshwater-fish",
+              "resourceId": "273b24ba-51fa-4462-bae9-1f33af48f988",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
-              "name": "Number of species records pre 2012 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-species-records-pre2012",
-              "resourceId": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-pre2012"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "d495d85e-983c-445a-b752-e271d8dbf549",
-              "name": "Percentage increase in number of records to 2015 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-species-records-increase2015",
-              "resourceId": "d495d85e-983c-445a-b752-e271d8dbf549",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-increase2015"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
-              "name": "NVIS community loss (%) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-nvis-community-loss",
-              "resourceId": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-loss"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "9d62d724-2e52-471b-819d-110b8278e2f1",
-              "name": "NVIS community change 5000 ha (%) map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-nvis-community-change5000",
-              "resourceId": "9d62d724-2e52-471b-819d-110b8278e2f1",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-change5000"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
-              "name": "Number of EPBC species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-total",
-              "resourceId": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "d03b916e-0fe6-4096-a010-3947e00794e3",
-              "name": "Number of EPBC reptile species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-reptile",
-              "resourceId": "d03b916e-0fe6-4096-a010-3947e00794e3",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-reptile"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "96ddca09-d586-41f8-9f92-5b87929f266a",
-              "name": "Number of EPBC plant species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-plant",
-              "resourceId": "96ddca09-d586-41f8-9f92-5b87929f266a",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-plant"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "66ae8bb4-a411-411f-b068-be25410337a6",
-              "name": "Number of EPBC mammal species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-mammal",
-              "resourceId": "66ae8bb4-a411-411f-b068-be25410337a6",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
-              "name": "Number of EPBC invertebrate species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-invert",
-              "resourceId": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-vulnerable-freshwater-fish"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -677,7 +297,7 @@
             },
             {
               "id": "0ca78178-7482-486f-ae85-9cd97c7c97c9",
-              "name": "Number of EPBC fish species in each IBRA region map service",
+              "name": "BIO26 Numbers of fish species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -696,120 +316,20 @@
               }
             },
             {
-              "id": "b1646dba-688d-4486-91e2-6644e5202647",
-              "name": "2011 NRS protection level of IBRA regions map service",
+              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "name": "BIO27a Distribution of currently listed freshwater fish",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-2011-nrs-protection",
-              "resourceId": "b1646dba-688d-4486-91e2-6644e5202647",
+              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
+              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-2011-nrs-protection"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
-              "name": "2015 NRS protection level of IBRA regions map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-2015-nrs-protection",
-              "resourceId": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-2015-nrs-protection"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "17ed8188-7e87-4c62-87a5-feab8064149c",
-              "name": "NRS protection level change of IBRA regions 2011-2015 map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-nrs-protection-change",
-              "resourceId": "17ed8188-7e87-4c62-87a5-feab8064149c",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-nrs-protection-change"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "0e93152b-3154-4701-9d52-c1a4ff700080",
-              "name": "Number of EPBC amphibian species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-amphibian",
-              "resourceId": "0e93152b-3154-4701-9d52-c1a4ff700080",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-amphibian"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "9d6e03a9-1aad-4079-93c2-74d62321f694",
-              "name": "Number of EPBC bird species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-bird",
-              "resourceId": "9d6e03a9-1aad-4079-93c2-74d62321f694",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
-              "name": "Number of EPBC critically endangered bird species in each IBRA region map service",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-bird-ce",
-              "resourceId": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird-ce"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -817,7 +337,7 @@
             },
             {
               "id": "4a9b51e0-1602-47d8-bafb-c61de307637b",
-              "name": "Number of EPBC critically endangered invertebrate species in each IBRA region map service",
+              "name": "BIO23a Numbers of critically endangered invertebrate species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -836,20 +356,100 @@
               }
             },
             {
-              "id": "f85a7890-9f1f-4005-a285-82c438789905",
-              "name": "Number of EPBC critically endangered mammal species in each IBRA region map service",
+              "id": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
+              "name": "BIO23a Numbers of invertebrate species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-mammal-ce",
-              "resourceId": "f85a7890-9f1f-4005-a285-82c438789905",
+              "datasetId": "2016-soe-bio-epbc-invert",
+              "resourceId": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal-ce"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "0e93152b-3154-4701-9d52-c1a4ff700080",
+              "name": "BIO22b Numbers of amphibian species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-amphibian",
+              "resourceId": "0e93152b-3154-4701-9d52-c1a4ff700080",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-amphibian"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "d03b916e-0fe6-4096-a010-3947e00794e3",
+              "name": "BIO22a Numbers of reptile species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-reptile",
+              "resourceId": "d03b916e-0fe6-4096-a010-3947e00794e3",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-reptile"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
+              "name": "BIO21b Numbers of critically endangered bird species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-bird-ce",
+              "resourceId": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird-ce"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "9d6e03a9-1aad-4079-93c2-74d62321f694",
+              "name": "BIO21a Numbers of bird species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-bird",
+              "resourceId": "9d6e03a9-1aad-4079-93c2-74d62321f694",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -857,7 +457,7 @@
             },
             {
               "id": "4697527b-33a1-42e7-9275-b46633f60534",
-              "name": "Number of EPBC critically endangered plant species in each IBRA region map service",
+              "name": "BIO17b Numbers of critically endangered plant species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -876,40 +476,40 @@
               }
             },
             {
-              "id": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
-              "name": "Number of EPBC critically endangered species in each IBRA region map service",
+              "id": "f85a7890-9f1f-4005-a285-82c438789905",
+              "name": "BIO20b Numbers of critically endangered mammal species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-total-ce",
-              "resourceId": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
+              "datasetId": "2016-soe-bio-epbc-mammal-ce",
+              "resourceId": "f85a7890-9f1f-4005-a285-82c438789905",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total-ce"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal-ce"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
-              "name": "Global biodiversity hotspots and world heritage sites map service",
+              "id": "66ae8bb4-a411-411f-b068-be25410337a6",
+              "name": "BIO20a Numbers of mammal species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-biodiversity-hotspot",
-              "resourceId": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
+              "datasetId": "2016-soe-bio-epbc-mammal",
+              "resourceId": "66ae8bb4-a411-411f-b068-be25410337a6",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-biodiversity-hotspot"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -917,7 +517,7 @@
             },
             {
               "id": "515c65a1-928b-4c97-a4f7-73f046471095",
-              "name": "Distribution of Pixie's parasol (Mycena interrupta) in Australia map service",
+              "name": "BIO18 Distribution of blue pixie’s parasol (Mycena interrupta)",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -936,40 +536,400 @@
               }
             },
             {
-              "id": "b4bdd2f5-c68b-45cf-a1ec-5fcf4fe0f159",
-              "name": "Bioregion Priority 2010 map service",
+              "id": "96ddca09-d586-41f8-9f92-5b87929f266a",
+              "name": "BIO17a Numbers of plant species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-bioregion-priority-2010",
-              "resourceId": "b4bdd2f5-c68b-45cf-a1ec-5fcf4fe0f159",
+              "datasetId": "2016-soe-bio-epbc-plant",
+              "resourceId": "96ddca09-d586-41f8-9f92-5b87929f266a",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-bioregion-priority-2010"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-plant"
                   }
                 ],
                 "cacheDuration": "1m"
               }
             },
             {
-              "id": "55838336-86e0-4b50-9bf2-40d91d0be7d6",
-              "name": "Bioregion Priority 2016 map service",
+              "id": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
+              "name": "BIO16b Numbers of critically endangered species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-bioregion-priority-2016",
-              "resourceId": "55838336-86e0-4b50-9bf2-40d91d0be7d6",
+              "datasetId": "2016-soe-bio-epbc-total-ce",
+              "resourceId": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
               "cacheDuration": "1m",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-bioregion-priority-2016"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total-ce"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
+              "name": "BIO16a Numbers of species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-total",
+              "resourceId": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "9d62d724-2e52-471b-819d-110b8278e2f1",
+              "name": "BIO11b Fragmentation measure reflecting the change in proportion of vegetation patches made up of less than 5000 hectares",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-nvis-community-change5000",
+              "resourceId": "9d62d724-2e52-471b-819d-110b8278e2f1",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-change5000"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
+              "name": "BIO11a Total loss of extent of vegetation communities in Australia from pre-1750 extents",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-nvis-community-loss",
+              "resourceId": "be459ec9-be82-40d0-bcb3-ade9db1d7a2c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-nvis-community-loss"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
+              "name": "BIO9 Distribution of ecological communities in Australia listed under the EPBC Act 1999",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-tec-count",
+              "resourceId": "4d8ffa3f-10b7-4e64-afe9-afb1be42a08a",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-tec-count"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "name": "BIO7fa Phylogenetic endemism for Hylid frogs",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-hyl-frogs",
+              "resourceId": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-hyl-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
+              "name": "BIO7fa Phylogenetic diversity for Hylid frogs",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-hyl-frogs",
+              "resourceId": "4c4b555d-9474-4a04-b19b-d2ec8a96881c",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-hyl-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "b43eb1e8-567d-47ab-8f08-628ffe741926",
+              "name": "BIO7eb Phylogenetic endemism for Myobatrachidae frogs",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-myo-frogs",
+              "resourceId": "b43eb1e8-567d-47ab-8f08-628ffe741926",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-myo-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
+              "name": "BIO7ea Phylogenetic diversity for Myobatrachidae frogs",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-myo-frogs",
+              "resourceId": "df5ac82f-cef2-4b0f-b7f9-4d12065c75d6",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-myo-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "295be5a9-80d8-4002-89e2-debbc36051c5",
+              "name": "BIO7db Phylogenetic endemism for snakes and lizards",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-snake-lizards",
+              "resourceId": "295be5a9-80d8-4002-89e2-debbc36051c5",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-snake-lizards"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
+              "name": "BIO7da Phylogenetic diversity for snakes and lizards",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-snake-lizards",
+              "resourceId": "380f4697-032d-48c1-b896-d86fa3f4a9f9",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-snake-lizards"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "89bc8411-d015-4236-b36a-8d34b992cb84",
+              "name": "BIO7cb Phylogenetic endemism for Passerine birds",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-birds",
+              "resourceId": "89bc8411-d015-4236-b36a-8d34b992cb84",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-birds"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "40be8902-acf6-454a-8599-ca1f30726e03",
+              "name": "BIO7ca Phylogenetic diversity for Passerine birds",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-birds",
+              "resourceId": "40be8902-acf6-454a-8599-ca1f30726e03",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-birds"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
+              "name": "BIO7bb Phylogenetic endemism for mammals",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-mammal",
+              "resourceId": "aaaf8832-e51e-44b9-8305-7c44ed1ef116",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-mammal"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
+              "name": "BIO7ba Phylogenetic diversity for mammals",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-mammal",
+              "resourceId": "02c7c5c5-a1a6-4b35-a1c2-8c3ef810510e",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-mammal"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "fc9dcf57-5597-4263-ba59-56ea1108a808",
+              "name": "BIO7ab Phylogenetic endemism for vascular plants",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-vascplants",
+              "resourceId": "fc9dcf57-5597-4263-ba59-56ea1108a808",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-vascplants"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
+              "name": "BIO7aa Phylogenetic diversity for vascular plants",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-diversity-vascplants",
+              "resourceId": "5e3acc3c-f96e-480b-9835-ede99f1612a8",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-diversity-vascplants"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
+              "name": "BIO5 Threatened species richness across Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-threatened-sp-richness",
+              "resourceId": "2fa3f820-3d47-4015-a873-6b84a5af6ca5",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-threatened-sp-richness"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
+              "name": "BIO1 Global biodiversity hotspots and natural value World Heritage Areas in Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-biodiversity-hotspot",
+              "resourceId": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-biodiversity-hotspot"
                   }
                 ],
                 "cacheDuration": "1m"
