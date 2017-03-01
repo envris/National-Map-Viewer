@@ -136,6 +136,46 @@
           "type": "group",
           "items": [
             {
+              "id": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "name": "BIO7fb Phylogenetic endemism for Hylid frogs",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-phylo-endemism-hyl-frogs",
+              "resourceId": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-hyl-frogs"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
+              "id": "4a9b51e0-1602-47d8-bafb-c61de307637b",
+              "name": "BIO23b Numbers of critically endangered invertebrate species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-invert-ce",
+              "resourceId": "4a9b51e0-1602-47d8-bafb-c61de307637b",
+              "cacheDuration": "1m",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert-ce"
+                  }
+                ],
+                "cacheDuration": "1m"
+              }
+            },
+            {
               "id": "17ed8188-7e87-4c62-87a5-feab8064149c",
               "name": "BIO39c Proportion of IBRA regions represented in the National Reserve System - proportional change between 2011 and 2015",
               "debugFormat": "Esri REST",
@@ -330,26 +370,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "4a9b51e0-1602-47d8-bafb-c61de307637b",
-              "name": "BIO23a Numbers of critically endangered invertebrate species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-invert-ce",
-              "resourceId": "4a9b51e0-1602-47d8-bafb-c61de307637b",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert-ce"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -650,26 +670,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-tec-count"
-                  }
-                ],
-                "cacheDuration": "1m"
-              }
-            },
-            {
-              "id": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
-              "name": "BIO7fa Phylogenetic endemism for Hylid frogs",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-phylo-endemism-hyl-frogs",
-              "resourceId": "f92fc375-c7d6-4a95-be32-2f5fe612c9d1",
-              "cacheDuration": "1m",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-hyl-frogs"
                   }
                 ],
                 "cacheDuration": "1m"
@@ -1707,7 +1707,7 @@
           "items": [
             {
               "id": "238f4a98-209c-4479-aa67-23108c982399",
-              "name": "LAN34 Indigenous land and sea interests in northern Australia",
+              "name": "LAN34b Indigenous land and sea interests in northern Australia",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
