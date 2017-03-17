@@ -2932,26 +2932,6 @@
               }
             },
             {
-              "id": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
-              "name": "MAR15 Exploration permits for petroleum leases in the marine environment, 2011–15",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-mar-exploration-permits-petroleum-leases",
-              "resourceId": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-mar-exploration-permits-petroleum-leases"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
               "id": "8aa4eb03-2416-46fc-a62c-b9b07511cbee",
               "name": "MAR14 Wells drilled by the oil and gas industry in the marine environment, 2001-15",
               "debugFormat": "Esri REST",
