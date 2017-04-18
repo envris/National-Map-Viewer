@@ -30,6 +30,26 @@
               }
             },
             {
+              "id": "e159a5fb-0302-470b-9bdd-e0507c8aa68b",
+              "name": "ATM23a Trends in extreme fire-weather days (annual 90th percentile of daily Forest Fire Danger Index values) at 38 climate reference sites",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-atm-forest-fire-danger-index",
+              "resourceId": "e159a5fb-0302-470b-9bdd-e0507c8aa68b",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-atm-forest-fire-danger-index"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
               "id": "175d6476-8feb-4dfd-9d49-a2d918aacdd7",
               "name": "ATM22 Noncontiguous rainfall deciles in Australia, May-July 2000-15",
               "debugFormat": "Esri REST",
@@ -44,26 +64,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-atm-rain-may-to-july-00-15"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "ac281dc7-31ee-40a9-9e16-0f99975eac92",
-              "name": "ATM21 Rainfall deciles in Australia, 1 July 2012 – 31 October 2015",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-atm-rain-dec-jul12-to-oct15",
-              "resourceId": "ac281dc7-31ee-40a9-9e16-0f99975eac92",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-atm-rain-dec-jul12-to-oct15"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -90,26 +90,6 @@
               }
             },
             {
-              "id": "e159a5fb-0302-470b-9bdd-e0507c8aa68b",
-              "name": "ATM23a Trends in extreme fire-weather days (annual 90th percentile of daily Forest Fire Danger Index values) at 38 climate reference sites",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-atm-forest-fire-danger-index",
-              "resourceId": "e159a5fb-0302-470b-9bdd-e0507c8aa68b",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-atm-forest-fire-danger-index"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
               "id": "227e7579-53b3-4a0b-a5bb-dffae4c74f40",
               "name": "ATM18 Trends in Australian mean temperatures, 1910–2015",
               "debugFormat": "Esri REST",
@@ -128,6 +108,26 @@
                 ],
                 "cacheDuration": "1h"
               }
+            },
+            {
+              "id": "ac281dc7-31ee-40a9-9e16-0f99975eac92",
+              "name": "ATM21 Rainfall deciles in Australia, 1 July 2012 – 31 October 2015",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-atm-rain-dec-jul12-to-oct15",
+              "resourceId": "ac281dc7-31ee-40a9-9e16-0f99975eac92",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-atm-rain-dec-jul12-to-oct15"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
             }
           ]
         },
@@ -136,240 +136,20 @@
           "type": "group",
           "items": [
             {
-              "id": "b1646dba-688d-4486-91e2-6644e5202647",
-              "name": "BIO39a Proportion of IBRA regions represented in the National Reserve System in 2011",
+              "id": "17ed8188-7e87-4c62-87a5-feab8064149c",
+              "name": "BIO39c Proportion of IBRA regions represented in the National Reserve System - proportional change between 2011 and 2015",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-2011-nrs-protection",
-              "resourceId": "b1646dba-688d-4486-91e2-6644e5202647",
+              "datasetId": "2016-soe-bio-nrs-protection-change",
+              "resourceId": "17ed8188-7e87-4c62-87a5-feab8064149c",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-2011-nrs-protection"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
-              "name": "BIO39b Proportion of IBRA regions represented in the National Reserve System in 2015",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-2015-nrs-protection",
-              "resourceId": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-2015-nrs-protection"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
-              "name": "BIO1 Global biodiversity hotspots and natural value World Heritage Areas in Australia",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-biodiversity-hotspot",
-              "resourceId": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-biodiversity-hotspot"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "0e93152b-3154-4701-9d52-c1a4ff700080",
-              "name": "BIO22b Numbers of amphibian species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-amphibian",
-              "resourceId": "0e93152b-3154-4701-9d52-c1a4ff700080",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-amphibian"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "9d6e03a9-1aad-4079-93c2-74d62321f694",
-              "name": "BIO21a Numbers of bird species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-bird",
-              "resourceId": "9d6e03a9-1aad-4079-93c2-74d62321f694",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
-              "name": "BIO21b Numbers of critically endangered bird species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-bird-ce",
-              "resourceId": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird-ce"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "0ca78178-7482-486f-ae85-9cd97c7c97c9",
-              "name": "BIO26 Numbers of fish species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-fish",
-              "resourceId": "0ca78178-7482-486f-ae85-9cd97c7c97c9",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-fish"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
-              "name": "BIO27a Distribution of currently listed freshwater fish",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
-              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
-              "name": "BIO23a Numbers of invertebrate species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-invert",
-              "resourceId": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "4a9b51e0-1602-47d8-bafb-c61de307637b",
-              "name": "BIO23b Numbers of critically endangered invertebrate species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-invert-ce",
-              "resourceId": "4a9b51e0-1602-47d8-bafb-c61de307637b",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert-ce"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "66ae8bb4-a411-411f-b068-be25410337a6",
-              "name": "BIO20a Numbers of mammal species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-mammal",
-              "resourceId": "66ae8bb4-a411-411f-b068-be25410337a6",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "f85a7890-9f1f-4005-a285-82c438789905",
-              "name": "BIO20b Numbers of critically endangered mammal species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-mammal-ce",
-              "resourceId": "f85a7890-9f1f-4005-a285-82c438789905",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal-ce"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-nrs-protection-change"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -396,40 +176,200 @@
               }
             },
             {
-              "id": "4697527b-33a1-42e7-9275-b46633f60534",
-              "name": "BIO17b Numbers of critically endangered plant species listed under the EPBC Act 1999 in each IBRA region",
+              "id": "4a9b51e0-1602-47d8-bafb-c61de307637b",
+              "name": "BIO23b Numbers of critically endangered invertebrate species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-plant-ce",
-              "resourceId": "4697527b-33a1-42e7-9275-b46633f60534",
+              "datasetId": "2016-soe-bio-epbc-invert-ce",
+              "resourceId": "4a9b51e0-1602-47d8-bafb-c61de307637b",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-plant-ce"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert-ce"
                   }
                 ],
                 "cacheDuration": "1h"
               }
             },
             {
-              "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
-              "name": "BIO27d Distribution of freshwater fish research effort across Australia",
+              "id": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
+              "name": "BIO16b Numbers of critically endangered species listed under the EPBC Act 1999 in each IBRA region",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-research-effort",
-              "resourceId": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "datasetId": "2016-soe-bio-epbc-total-ce",
+              "resourceId": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-research-effort"
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total-ce"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "0ca78178-7482-486f-ae85-9cd97c7c97c9",
+              "name": "BIO26 Numbers of fish species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-fish",
+              "resourceId": "0ca78178-7482-486f-ae85-9cd97c7c97c9",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-fish"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
+              "name": "BIO39b Proportion of IBRA regions represented in the National Reserve System in 2015",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-2015-nrs-protection",
+              "resourceId": "822bc89e-4e8e-4159-a0fd-a242d991faaa",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-2015-nrs-protection"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "9d6e03a9-1aad-4079-93c2-74d62321f694",
+              "name": "BIO21a Numbers of bird species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-bird",
+              "resourceId": "9d6e03a9-1aad-4079-93c2-74d62321f694",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
+              "name": "BIO23a Numbers of invertebrate species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-invert",
+              "resourceId": "f9bc65af-8bb8-4583-8a0b-60bb23fc8f14",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-invert"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
+              "name": "BIO21b Numbers of critically endangered bird species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-bird-ce",
+              "resourceId": "d2ac5ab2-4b93-40a6-b767-bdde174562b0",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-bird-ce"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "d03b916e-0fe6-4096-a010-3947e00794e3",
+              "name": "BIO22a Numbers of reptile species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-reptile",
+              "resourceId": "d03b916e-0fe6-4096-a010-3947e00794e3",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-reptile"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
+              "name": "BIO29a Records in the Atlas of Living Australia, by IBRA region pre 2012",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-species-records-pre2012",
+              "resourceId": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-pre2012"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "66ae8bb4-a411-411f-b068-be25410337a6",
+              "name": "BIO20a Numbers of mammal species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-mammal",
+              "resourceId": "66ae8bb4-a411-411f-b068-be25410337a6",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -450,6 +390,166 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-increase2015"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "b1646dba-688d-4486-91e2-6644e5202647",
+              "name": "BIO39a Proportion of IBRA regions represented in the National Reserve System in 2011",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-2011-nrs-protection",
+              "resourceId": "b1646dba-688d-4486-91e2-6644e5202647",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-2011-nrs-protection"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "0e93152b-3154-4701-9d52-c1a4ff700080",
+              "name": "BIO22b Numbers of amphibian species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-amphibian",
+              "resourceId": "0e93152b-3154-4701-9d52-c1a4ff700080",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-amphibian"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "4697527b-33a1-42e7-9275-b46633f60534",
+              "name": "BIO17b Numbers of critically endangered plant species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-plant-ce",
+              "resourceId": "4697527b-33a1-42e7-9275-b46633f60534",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-plant-ce"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
+              "name": "BIO16a Numbers of species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-total",
+              "resourceId": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "f85a7890-9f1f-4005-a285-82c438789905",
+              "name": "BIO20b Numbers of critically endangered mammal species listed under the EPBC Act 1999 in each IBRA region",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-mammal-ce",
+              "resourceId": "f85a7890-9f1f-4005-a285-82c438789905",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-mammal-ce"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
+              "name": "BIO1 Global biodiversity hotspots and natural value World Heritage Areas in Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-biodiversity-hotspot",
+              "resourceId": "19d5794b-9d5e-4e7f-8a5d-15abb889a640",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-biodiversity-hotspot"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "name": "BIO27a Distribution of currently listed freshwater fish",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-epbc-freshwater-fish",
+              "resourceId": "ffcd9cb6-272c-4309-811e-2f7249f18bf8",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-freshwater-fish"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "name": "BIO27d Distribution of freshwater fish research effort across Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-bio-research-effort",
+              "resourceId": "35fbeb07-e8e8-46f4-bce9-d2b936327418",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-bio-research-effort"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -490,26 +590,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-phylo-endemism-vascplants"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
-              "name": "BIO29a Records in the Atlas of Living Australia, by IBRA region pre 2012",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-species-records-pre2012",
-              "resourceId": "fef0a2b8-f5c9-47fe-8797-a76c6df8c09e",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-species-records-pre2012"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -576,66 +656,6 @@
               }
             },
             {
-              "id": "d03b916e-0fe6-4096-a010-3947e00794e3",
-              "name": "BIO22a Numbers of reptile species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-reptile",
-              "resourceId": "d03b916e-0fe6-4096-a010-3947e00794e3",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-reptile"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
-              "name": "BIO16a Numbers of species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-total",
-              "resourceId": "5b0a95f2-ba9f-457b-b8c2-f73e3aae378c",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
-              "name": "BIO16b Numbers of critically endangered species listed under the EPBC Act 1999 in each IBRA region",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-epbc-total-ce",
-              "resourceId": "150cf7ae-2333-4d1e-8d61-6027bbe08194",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-epbc-total-ce"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
               "id": "515c65a1-928b-4c97-a4f7-73f046471095",
               "name": "BIO18 Distribution of blue pixie’s parasol (Mycena interrupta)",
               "debugFormat": "Esri REST",
@@ -650,26 +670,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-bio-mycena-interrupta"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "17ed8188-7e87-4c62-87a5-feab8064149c",
-              "name": "BIO39c Proportion of IBRA regions represented in the National Reserve System - proportional change between 2011 and 2015",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-bio-nrs-protection-change",
-              "resourceId": "17ed8188-7e87-4c62-87a5-feab8064149c",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-bio-nrs-protection-change"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -1128,6 +1128,26 @@
           "type": "group",
           "items": [
             {
+              "id": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
+              "name": "COA5 Oil and gas production wells within 50 kilometres of the coast",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-coa-coastal-oil-gas",
+              "resourceId": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-coa-coastal-oil-gas"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
               "id": "34f98a12-e648-474d-9c0e-868304f5dcfd",
               "name": "COA16 Australian protected areas, 2014, and Indigenous Protected Areas, 2016",
               "debugFormat": "Esri REST",
@@ -1188,26 +1208,6 @@
               }
             },
             {
-              "id": "230f52cf-be1d-4636-83ad-70925b51d745",
-              "name": "COA10 Percentage of remaining native vegetation in each subregion of the Interim Biogeographic Regionalisation for Australia",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-coa-remaining-native-vegetation",
-              "resourceId": "230f52cf-be1d-4636-83ad-70925b51d745",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-coa-remaining-native-vegetation"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
               "id": "0bcc0b12-ebe8-479a-8e40-dd9fb52f09d4",
               "name": "COA6 Sea level trends from satellite altimeters and tide gauges, January 1993 to December 2010",
               "debugFormat": "Esri REST",
@@ -1228,20 +1228,20 @@
               }
             },
             {
-              "id": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
-              "name": "COA5 Oil and gas production wells within 50 kilometres of the coast",
+              "id": "230f52cf-be1d-4636-83ad-70925b51d745",
+              "name": "COA10 Percentage of remaining native vegetation in each subregion of the Interim Biogeographic Regionalisation for Australia",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-coa-coastal-oil-gas",
-              "resourceId": "39eeda53-b74e-4e5f-a31c-84755c0ef9b8",
+              "datasetId": "2016-soe-coa-remaining-native-vegetation",
+              "resourceId": "230f52cf-be1d-4636-83ad-70925b51d745",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-coa-coastal-oil-gas"
+                    "content": "https://data.gov.au/dataset/2016-soe-coa-remaining-native-vegetation"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -1253,26 +1253,6 @@
           "name": "Heritage Map",
           "type": "group",
           "items": [
-            {
-              "id": "a8ecc243-5a85-4724-8640-638babb64309",
-              "name": "HER1 Great Eastern Ranges connectivity corridor",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-her-ger-connectivity-corridor",
-              "resourceId": "a8ecc243-5a85-4724-8640-638babb64309",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-her-ger-connectivity-corridor"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
             {
               "id": "afc22c1e-dce3-4ed1-874c-0d3d4809e534",
               "name": "HER3 Places on the National Heritage List",
@@ -1314,40 +1294,20 @@
               }
             },
             {
-              "id": "bd2653bb-2428-47aa-b4b1-b0bf509e3ecf",
-              "name": "HER8 Additions to the National Reserve System, 2011–16",
+              "id": "a8ecc243-5a85-4724-8640-638babb64309",
+              "name": "HER1 Great Eastern Ranges connectivity corridor",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-her-nrs-additions-2011-16",
-              "resourceId": "bd2653bb-2428-47aa-b4b1-b0bf509e3ecf",
+              "datasetId": "2016-soe-her-ger-connectivity-corridor",
+              "resourceId": "a8ecc243-5a85-4724-8640-638babb64309",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-her-nrs-additions-2011-16"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
-              "name": "HER14 Indigenous Protected Area additions since 2011",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-her-ipa-additions-2011-16",
-              "resourceId": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-her-ipa-additions-2011-16"
+                    "content": "https://data.gov.au/dataset/2016-soe-her-ger-connectivity-corridor"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -1394,6 +1354,26 @@
               }
             },
             {
+              "id": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
+              "name": "HER14 Indigenous Protected Area additions since 2011",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-her-ipa-additions-2011-16",
+              "resourceId": "798ab07c-4173-4c4d-ae80-95d14eebcde8",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-her-ipa-additions-2011-16"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
               "id": "31f0289e-cee5-41d3-8d8e-2fda8b750fb6",
               "name": "HER10 Interim Biogeographic Regionalisation for Australia regions",
               "debugFormat": "Esri REST",
@@ -1412,6 +1392,26 @@
                 ],
                 "cacheDuration": "1h"
               }
+            },
+            {
+              "id": "bd2653bb-2428-47aa-b4b1-b0bf509e3ecf",
+              "name": "HER8 Additions to the National Reserve System, 2011–16",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-her-nrs-additions-2011-16",
+              "resourceId": "bd2653bb-2428-47aa-b4b1-b0bf509e3ecf",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-her-nrs-additions-2011-16"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
             }
           ]
         },
@@ -1420,140 +1420,60 @@
           "type": "group",
           "items": [
             {
-              "id": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
-              "name": "WAT14 Principal hydrogeology of Australia",
+              "id": "d797826d-f962-446f-a146-420b39e84a8c",
+              "name": "WAT1 Australian drainage divisions",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-aus-hydrogeology",
-              "resourceId": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
+              "datasetId": "2016-soe-inw-aus-drainage-div",
+              "resourceId": "d797826d-f962-446f-a146-420b39e84a8c",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-aus-hydrogeology"
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-aus-drainage-div"
                   }
                 ],
                 "cacheDuration": "1h"
               }
             },
             {
-              "id": "5c9331be-0848-47e2-97a8-0872449889b0",
-              "name": "WAT13 Monthly streamflow for the Lake Eyre Basin, January 2016",
+              "id": "790b72ef-a70a-46d0-be2f-e8e42b115123",
+              "name": "WAT3 Rainfall deficiencies, 2013–15",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-lake-eyre-stream",
-              "resourceId": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "datasetId": "2016-soe-inw-rainfall-deficiencies",
+              "resourceId": "790b72ef-a70a-46d0-be2f-e8e42b115123",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-stream"
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deficiencies"
                   }
                 ],
                 "cacheDuration": "1h"
               }
             },
             {
-              "id": "7c46a60b-a064-471d-a629-ecd79784c6c9",
-              "name": "WAT12 Rainfall deciles for the Lake Eyre Basin, January 2016",
+              "id": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
+              "name": "WAT2 Average annual rainfall",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-lake-eyre-rainfall",
-              "resourceId": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "datasetId": "2016-soe-inw-avg-ann-rainfall",
+              "resourceId": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-rainfall"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "27af3628-0a74-4402-8afa-953a31b87908",
-              "name": "WAT11 Distribution of water hyacinth",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-water-hyacinth",
-              "resourceId": "27af3628-0a74-4402-8afa-953a31b87908",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-water-hyacinth"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "3ec14210-847e-477c-adda-da23efa8860b",
-              "name": "WAT10 Distribution of arrowhead",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-arrowhead",
-              "resourceId": "3ec14210-847e-477c-adda-da23efa8860b",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-arrowhead"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
-              "name": "WAT9 Observed extent of eastern gambusia, 2016",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-eastern-gambusia",
-              "resourceId": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-eastern-gambusia"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
-              "name": "WAT8 Heat map of observed carp extent, 2016",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-european-carp",
-              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-european-carp"
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-avg-ann-rainfall"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -1561,7 +1481,7 @@
             },
             {
               "id": "07f67252-dc4a-4fdd-9596-6cf50a677828",
-              "name": "WAT4d Australian rainfall deciles, 2014",
+              "name": "WAT4d Australian rainfall deciles, 2015",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -1581,7 +1501,7 @@
             },
             {
               "id": "7babb413-c021-441b-8116-46330960297a",
-              "name": "WAT4b Australian rainfall deciles, 2013",
+              "name": "WAT4c Australian rainfall deciles, 2014",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
@@ -1640,60 +1560,140 @@
               }
             },
             {
-              "id": "790b72ef-a70a-46d0-be2f-e8e42b115123",
-              "name": "WAT3 Rainfall deficiencies, 2013–15",
+              "id": "5c9331be-0848-47e2-97a8-0872449889b0",
+              "name": "WAT13 Monthly streamflow for the Lake Eyre Basin, January 2016",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-rainfall-deficiencies",
-              "resourceId": "790b72ef-a70a-46d0-be2f-e8e42b115123",
+              "datasetId": "2016-soe-inw-lake-eyre-stream",
+              "resourceId": "5c9331be-0848-47e2-97a8-0872449889b0",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-rainfall-deficiencies"
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-stream"
                   }
                 ],
                 "cacheDuration": "1h"
               }
             },
             {
-              "id": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
-              "name": "WAT2 Average annual rainfall",
+              "id": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
+              "name": "WAT14 Principal hydrogeology of Australia",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-avg-ann-rainfall",
-              "resourceId": "8a2811f1-71b9-4c34-9a5a-59ee62e4c2c0",
+              "datasetId": "2016-soe-inw-aus-hydrogeology",
+              "resourceId": "8353772b-370a-41d2-8c86-ecaf671ed0f5",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-avg-ann-rainfall"
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-aus-hydrogeology"
                   }
                 ],
                 "cacheDuration": "1h"
               }
             },
             {
-              "id": "d797826d-f962-446f-a146-420b39e84a8c",
-              "name": "WAT1 Australian drainage divisions",
+              "id": "7c46a60b-a064-471d-a629-ecd79784c6c9",
+              "name": "WAT12 Rainfall deciles for the Lake Eyre Basin, January 2016",
               "debugFormat": "Esri REST",
               "type": "ckan-resource",
               "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-inw-aus-drainage-div",
-              "resourceId": "d797826d-f962-446f-a146-420b39e84a8c",
+              "datasetId": "2016-soe-inw-lake-eyre-rainfall",
+              "resourceId": "7c46a60b-a064-471d-a629-ecd79784c6c9",
               "cacheDuration": "1h",
               "itemProperties": {
                 "hideSource": true,
                 "info": [
                   {
                     "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-inw-aus-drainage-div"
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-lake-eyre-rainfall"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
+              "name": "WAT9 Observed extent of eastern gambusia, 2016",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-eastern-gambusia",
+              "resourceId": "fcad887d-aee8-4b7b-90f0-db00d6fe3e97",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-eastern-gambusia"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "27af3628-0a74-4402-8afa-953a31b87908",
+              "name": "WAT11 Distribution of water hyacinth",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-water-hyacinth",
+              "resourceId": "27af3628-0a74-4402-8afa-953a31b87908",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-water-hyacinth"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "name": "WAT8 Heat map of observed carp extent, 2016",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-european-carp",
+              "resourceId": "1d6a13a9-5a42-494c-af29-30c260850ba2",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-european-carp"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "3ec14210-847e-477c-adda-da23efa8860b",
+              "name": "WAT10 Distribution of arrowhead",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-inw-arrowhead",
+              "resourceId": "3ec14210-847e-477c-adda-da23efa8860b",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-inw-arrowhead"
                   }
                 ],
                 "cacheDuration": "1h"
@@ -1705,6 +1705,26 @@
           "name": "Land Map",
           "type": "group",
           "items": [
+            {
+              "id": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
+              "name": "LAN34a Indigenous land and sea interests in northern Australia",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-lan-northern-australia-ili",
+              "resourceId": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-lan-northern-australia-ili"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
             {
               "id": "646f6c2e-a49e-43b7-904c-307830e40c81",
               "name": "LAN24d Dust storm activity across Australia based on 356 stations, 2004",
@@ -2286,26 +2306,6 @@
               }
             },
             {
-              "id": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
-              "name": "LAN34a Indigenous land and sea interests in northern Australia",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-lan-northern-australia-ili",
-              "resourceId": "6b979310-c5c4-4dbc-b1c6-13df1f6752f9",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-lan-northern-australia-ili"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
               "id": "f1bcaf2d-bae5-4d35-8907-feb5d8ce46fa",
               "name": "LAN2a Novel vegetation communities under climate scenarios for hot Canadian Earth System Model 2 under a high-emissions scenario (RCP8.5)",
               "debugFormat": "Esri REST",
@@ -2471,6 +2471,66 @@
           "name": "Marine environment Map",
           "type": "group",
           "items": [
+            {
+              "id": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
+              "name": "MAR15 Exploration permits for petroleum leases in the marine environment, 2011–15",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-mar-exploration-permits-petroleum-leases",
+              "resourceId": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-mar-exploration-permits-petroleum-leases"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "0c2d803b-7f96-4631-b5b8-8203c67d89b4",
+              "name": "2016 SoE Marine Density (kilometres traversed) of vessels more than 24 metres long in the Australian exclusive economic zone",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-mar-shipping-density",
+              "resourceId": "0c2d803b-7f96-4631-b5b8-8203c67d89b4",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-mar-shipping-density"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
+            {
+              "id": "33b2b392-b2ce-49b9-8261-cbd15718167d",
+              "name": "MAR7 Average decadal change in surface water pH around Australia, 1880-89 to 2000-09",
+              "debugFormat": "Esri REST",
+              "type": "ckan-resource",
+              "url": "proxy/_60s/https://data.gov.au",
+              "datasetId": "2016-soe-mar-annual-mean-change-in-surface-ph",
+              "resourceId": "33b2b392-b2ce-49b9-8261-cbd15718167d",
+              "cacheDuration": "1h",
+              "itemProperties": {
+                "hideSource": true,
+                "info": [
+                  {
+                    "name": "Metadata and Data Source",
+                    "content": "https://data.gov.au/dataset/2016-soe-mar-annual-mean-change-in-surface-ph"
+                  }
+                ],
+                "cacheDuration": "1h"
+              }
+            },
             {
               "id": "7dffa322-0676-4cd8-baa8-a407440dd69a",
               "name": "Australia's Exclusive Economic Zone map service",
@@ -2912,46 +2972,6 @@
               }
             },
             {
-              "id": "0c2d803b-7f96-4631-b5b8-8203c67d89b4",
-              "name": "2016 SoE Marine \tDensity (kilometres traversed) of vessels more than 24Â metres long in the Australian exclusive economic zone",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-mar-shipping-density",
-              "resourceId": "0c2d803b-7f96-4631-b5b8-8203c67d89b4",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-mar-shipping-density"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
-              "name": "MAR15 Exploration permits for petroleum leases in the marine environment, 2011–15",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-mar-exploration-permits-petroleum-leases",
-              "resourceId": "dd12ef8e-2630-4511-b1e6-ef9eb118f094",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-mar-exploration-permits-petroleum-leases"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
               "id": "8aa4eb03-2416-46fc-a62c-b9b07511cbee",
               "name": "MAR14 Wells drilled by the oil and gas industry in the marine environment, 2001-15",
               "debugFormat": "Esri REST",
@@ -3026,26 +3046,6 @@
                   {
                     "name": "Metadata and Data Source",
                     "content": "https://data.gov.au/dataset/2016-soe-mar-dissolved-oxygen"
-                  }
-                ],
-                "cacheDuration": "1h"
-              }
-            },
-            {
-              "id": "33b2b392-b2ce-49b9-8261-cbd15718167d",
-              "name": "MAR7 Average decadal change in surface water pH around Australia, 1880-89 to 2000-09",
-              "debugFormat": "Esri REST",
-              "type": "ckan-resource",
-              "url": "proxy/_60s/https://data.gov.au",
-              "datasetId": "2016-soe-mar-annual-mean-change-in-surface-ph",
-              "resourceId": "33b2b392-b2ce-49b9-8261-cbd15718167d",
-              "cacheDuration": "1h",
-              "itemProperties": {
-                "hideSource": true,
-                "info": [
-                  {
-                    "name": "Metadata and Data Source",
-                    "content": "https://data.gov.au/dataset/2016-soe-mar-annual-mean-change-in-surface-ph"
                   }
                 ],
                 "cacheDuration": "1h"
